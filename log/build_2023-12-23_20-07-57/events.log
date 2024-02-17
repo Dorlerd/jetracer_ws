@@ -1,0 +1,414 @@
+[0.000000] (-) TimerEvent: {}
+[0.000559] (bluespace_ai_xsens_mti_driver) JobQueued: {'identifier': 'bluespace_ai_xsens_mti_driver', 'dependencies': OrderedDict()}
+[0.001116] (jetracer_description) JobQueued: {'identifier': 'jetracer_description', 'dependencies': OrderedDict()}
+[0.001524] (jetson) JobQueued: {'identifier': 'jetson', 'dependencies': OrderedDict()}
+[0.003078] (kalman_filter_jetracer) JobQueued: {'identifier': 'kalman_filter_jetracer', 'dependencies': OrderedDict()}
+[0.003786] (test_jetson) JobQueued: {'identifier': 'test_jetson', 'dependencies': OrderedDict()}
+[0.004145] (bluespace_ai_xsens_mti_driver) JobStarted: {'identifier': 'bluespace_ai_xsens_mti_driver'}
+[0.099447] (-) TimerEvent: {}
+[0.200221] (-) TimerEvent: {}
+[0.302007] (-) TimerEvent: {}
+[0.388982] (jetracer_description) JobStarted: {'identifier': 'jetracer_description'}
+[0.402186] (-) TimerEvent: {}
+[0.503561] (-) TimerEvent: {}
+[0.604611] (-) TimerEvent: {}
+[0.705854] (-) TimerEvent: {}
+[0.806530] (-) TimerEvent: {}
+[0.872183] (jetson) JobStarted: {'identifier': 'jetson'}
+[0.907014] (-) TimerEvent: {}
+[1.007803] (-) TimerEvent: {}
+[1.111128] (-) TimerEvent: {}
+[1.212770] (-) TimerEvent: {}
+[1.314712] (-) TimerEvent: {}
+[1.370170] (kalman_filter_jetracer) JobStarted: {'identifier': 'kalman_filter_jetracer'}
+[1.415316] (-) TimerEvent: {}
+[1.516276] (-) TimerEvent: {}
+[1.617431] (-) TimerEvent: {}
+[1.718209] (-) TimerEvent: {}
+[1.819311] (-) TimerEvent: {}
+[1.896385] (bluespace_ai_xsens_mti_driver) JobProgress: {'identifier': 'bluespace_ai_xsens_mti_driver', 'progress': 'cmake'}
+[1.899537] (bluespace_ai_xsens_mti_driver) JobProgress: {'identifier': 'bluespace_ai_xsens_mti_driver', 'progress': 'build'}
+[1.903344] (bluespace_ai_xsens_mti_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/jetson/.virtualenvs'), ('USER', 'jetson'), ('LC_TIME', 'en_GB.UTF-8'), ('SSH_AGENT_PID', '7682'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/jetson'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '7307'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '8:39287'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jetson-desktop:@/tmp/.ICE-unix/7721,unix/jetson-desktop:/tmp/.ICE-unix/7721'), ('INVOCATION_ID', '79e53801b23a44c39ab1acbefe22d05e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c751dc8a_fc19_4034_acf5_a97fdc810190'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/kalman_filter_jetracer:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/jetson/.virtualenvs'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/local/bin/virtualenvwrapper.sh'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver:/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/kalman_filter_jetracer:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/opt/ros/galactic')]), 'shell': False}
+[1.919641] (-) TimerEvent: {}
+[2.020981] (-) TimerEvent: {}
+[2.122505] (-) TimerEvent: {}
+[2.223264] (-) TimerEvent: {}
+[2.324047] (-) TimerEvent: {}
+[2.425717] (-) TimerEvent: {}
+[2.526541] (-) TimerEvent: {}
+[2.627198] (-) TimerEvent: {}
+[2.727908] (-) TimerEvent: {}
+[2.828600] (-) TimerEvent: {}
+[2.929281] (-) TimerEvent: {}
+[3.029950] (-) TimerEvent: {}
+[3.130718] (-) TimerEvent: {}
+[3.231436] (-) TimerEvent: {}
+[3.332117] (-) TimerEvent: {}
+[3.432815] (-) TimerEvent: {}
+[3.533563] (-) TimerEvent: {}
+[3.634399] (-) TimerEvent: {}
+[3.735079] (-) TimerEvent: {}
+[3.835841] (-) TimerEvent: {}
+[3.936527] (-) TimerEvent: {}
+[4.037353] (-) TimerEvent: {}
+[4.138203] (-) TimerEvent: {}
+[4.239102] (-) TimerEvent: {}
+[4.340763] (-) TimerEvent: {}
+[4.442413] (-) TimerEvent: {}
+[4.543107] (-) TimerEvent: {}
+[4.644067] (-) TimerEvent: {}
+[4.745833] (-) TimerEvent: {}
+[4.846566] (-) TimerEvent: {}
+[4.947288] (-) TimerEvent: {}
+[5.047952] (-) TimerEvent: {}
+[5.148873] (-) TimerEvent: {}
+[5.249552] (-) TimerEvent: {}
+[5.350271] (-) TimerEvent: {}
+[5.451029] (-) TimerEvent: {}
+[5.551693] (-) TimerEvent: {}
+[5.652344] (-) TimerEvent: {}
+[5.753087] (-) TimerEvent: {}
+[5.853825] (-) TimerEvent: {}
+[5.954542] (-) TimerEvent: {}
+[6.055240] (-) TimerEvent: {}
+[6.155949] (-) TimerEvent: {}
+[6.256638] (-) TimerEvent: {}
+[6.357512] (-) TimerEvent: {}
+[6.458225] (-) TimerEvent: {}
+[6.558888] (-) TimerEvent: {}
+[6.659659] (-) TimerEvent: {}
+[6.760423] (-) TimerEvent: {}
+[6.861156] (-) TimerEvent: {}
+[6.962086] (-) TimerEvent: {}
+[7.063939] (-) TimerEvent: {}
+[7.164728] (-) TimerEvent: {}
+[7.265720] (-) TimerEvent: {}
+[7.366717] (-) TimerEvent: {}
+[7.468720] (-) TimerEvent: {}
+[7.569531] (-) TimerEvent: {}
+[7.670220] (-) TimerEvent: {}
+[7.771190] (-) TimerEvent: {}
+[7.871860] (-) TimerEvent: {}
+[7.972530] (-) TimerEvent: {}
+[8.073487] (-) TimerEvent: {}
+[8.174152] (-) TimerEvent: {}
+[8.274910] (-) TimerEvent: {}
+[8.375623] (-) TimerEvent: {}
+[8.476366] (-) TimerEvent: {}
+[8.577058] (-) TimerEvent: {}
+[8.677788] (-) TimerEvent: {}
+[8.778461] (-) TimerEvent: {}
+[8.879126] (-) TimerEvent: {}
+[8.979963] (-) TimerEvent: {}
+[9.080636] (-) TimerEvent: {}
+[9.181369] (-) TimerEvent: {}
+[9.282116] (-) TimerEvent: {}
+[9.382823] (-) TimerEvent: {}
+[9.484061] (-) TimerEvent: {}
+[9.584934] (-) TimerEvent: {}
+[9.686156] (-) TimerEvent: {}
+[9.786886] (-) TimerEvent: {}
+[9.870798] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'[100%] Built target xsens_mti_node\n'}
+[9.875912] (bluespace_ai_xsens_mti_driver) CommandEnded: {'returncode': 0}
+[9.888468] (-) TimerEvent: {}
+[9.992936] (-) TimerEvent: {}
+[10.051285] (bluespace_ai_xsens_mti_driver) JobProgress: {'identifier': 'bluespace_ai_xsens_mti_driver', 'progress': 'install'}
+[10.093113] (-) TimerEvent: {}
+[10.160313] (bluespace_ai_xsens_mti_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver'], 'cwd': '/home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/jetson/.virtualenvs'), ('USER', 'jetson'), ('LC_TIME', 'en_GB.UTF-8'), ('SSH_AGENT_PID', '7682'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/jetson'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '7307'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '8:39287'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jetson-desktop:@/tmp/.ICE-unix/7721,unix/jetson-desktop:/tmp/.ICE-unix/7721'), ('INVOCATION_ID', '79e53801b23a44c39ab1acbefe22d05e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c751dc8a_fc19_4034_acf5_a97fdc810190'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/kalman_filter_jetracer:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/jetson/.virtualenvs'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/local/bin/virtualenvwrapper.sh'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver:/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/kalman_filter_jetracer:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/opt/ros/galactic')]), 'shell': False}
+[10.193440] (-) TimerEvent: {}
+[10.231869] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.233095] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/bluespace_ai_xsens_mti_driver/xsens_mti_node\n'}
+[10.234271] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/launch\n'}
+[10.235130] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/launch/display.launch.py\n'}
+[10.235927] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/launch/xsens_mti_node.launch.py\n'}
+[10.236565] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/param\n'}
+[10.237129] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/param/xsens_mti_node.yaml\n'}
+[10.237733] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/rviz\n'}
+[10.238887] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/rviz/display.rviz\n'}
+[10.239976] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf\n'}
+[10.240795] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_10.stl\n'}
+[10.241340] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_1.stl\n'}
+[10.242184] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_10.urdf\n'}
+[10.242781] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_6xx.stl\n'}
+[10.244660] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_6xx.urdf\n'}
+[10.245142] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_1.urdf\n'}
+[10.246872] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/package_run_dependencies/bluespace_ai_xsens_mti_driver\n'}
+[10.274137] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/parent_prefix_path/bluespace_ai_xsens_mti_driver\n'}
+[10.274612] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/ament_prefix_path.sh\n'}
+[10.275021] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/ament_prefix_path.dsv\n'}
+[10.275407] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/path.sh\n'}
+[10.275823] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/path.dsv\n'}
+[10.276268] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.bash\n'}
+[10.276773] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.sh\n'}
+[10.277438] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.zsh\n'}
+[10.277965] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.dsv\n'}
+[10.278464] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.dsv\n'}
+[10.278961] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/packages/bluespace_ai_xsens_mti_driver\n'}
+[10.279483] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/cmake/bluespace_ai_xsens_mti_driverConfig.cmake\n'}
+[10.279990] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/cmake/bluespace_ai_xsens_mti_driverConfig-version.cmake\n'}
+[10.280478] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.xml\n'}
+[10.280956] (bluespace_ai_xsens_mti_driver) CommandEnded: {'returncode': 0}
+[10.293819] (-) TimerEvent: {}
+[10.398228] (-) TimerEvent: {}
+[10.499312] (-) TimerEvent: {}
+[10.600126] (-) TimerEvent: {}
+[10.701349] (-) TimerEvent: {}
+[10.802426] (-) TimerEvent: {}
+[10.904105] (-) TimerEvent: {}
+[11.004981] (-) TimerEvent: {}
+[11.106035] (-) TimerEvent: {}
+[11.207202] (-) TimerEvent: {}
+[11.308445] (-) TimerEvent: {}
+[11.333209] (bluespace_ai_xsens_mti_driver) JobEnded: {'identifier': 'bluespace_ai_xsens_mti_driver', 'rc': 0}
+[11.336567] (test_jetson) JobStarted: {'identifier': 'test_jetson'}
+[11.408789] (-) TimerEvent: {}
+[11.509932] (-) TimerEvent: {}
+[11.610875] (-) TimerEvent: {}
+[11.712081] (-) TimerEvent: {}
+[11.813208] (-) TimerEvent: {}
+[11.923857] (-) TimerEvent: {}
+[12.025046] (-) TimerEvent: {}
+[12.128485] (-) TimerEvent: {}
+[12.229854] (-) TimerEvent: {}
+[12.337410] (-) TimerEvent: {}
+[12.441421] (-) TimerEvent: {}
+[12.545549] (-) TimerEvent: {}
+[12.646612] (-) TimerEvent: {}
+[12.748441] (-) TimerEvent: {}
+[12.853186] (-) TimerEvent: {}
+[12.961985] (-) TimerEvent: {}
+[13.068773] (-) TimerEvent: {}
+[13.169863] (-) TimerEvent: {}
+[13.270662] (-) TimerEvent: {}
+[13.371524] (-) TimerEvent: {}
+[13.472398] (-) TimerEvent: {}
+[13.573557] (-) TimerEvent: {}
+[13.674855] (-) TimerEvent: {}
+[13.775647] (-) TimerEvent: {}
+[13.876743] (-) TimerEvent: {}
+[13.977619] (-) TimerEvent: {}
+[14.078376] (-) TimerEvent: {}
+[14.179231] (-) TimerEvent: {}
+[14.280388] (-) TimerEvent: {}
+[14.381510] (-) TimerEvent: {}
+[14.482249] (-) TimerEvent: {}
+[14.582963] (-) TimerEvent: {}
+[14.684005] (-) TimerEvent: {}
+[14.785500] (-) TimerEvent: {}
+[14.886510] (-) TimerEvent: {}
+[14.987756] (-) TimerEvent: {}
+[15.088569] (-) TimerEvent: {}
+[15.189656] (-) TimerEvent: {}
+[15.292111] (-) TimerEvent: {}
+[15.392853] (-) TimerEvent: {}
+[15.493938] (-) TimerEvent: {}
+[15.594884] (-) TimerEvent: {}
+[15.696008] (-) TimerEvent: {}
+[15.797347] (-) TimerEvent: {}
+[15.898896] (-) TimerEvent: {}
+[16.017596] (-) TimerEvent: {}
+[16.068354] (jetson) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/jetson', 'build', '--build-base', '/home/jetson/ros2_ws/build/jetson/build', 'install', '--record', '/home/jetson/ros2_ws/build/jetson/install.log', '--single-version-externally-managed'], 'cwd': '/home/jetson/ros2_ws/src/jetson', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'VIRTUALENVWRAPPER_WORKON_CD': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKON_HOME': '/home/jetson/.virtualenvs', 'USER': 'jetson', 'LC_TIME': 'en_GB.UTF-8', 'SSH_AGENT_PID': '7682', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/jetson', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'OLDPWD': '/home/jetson', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_GB.UTF-8', 'MANAGERPID': '7307', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/ros2_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'jetson', 'JOURNAL_STREAM': '8:39287', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/jetson-desktop:@/tmp/.ICE-unix/7721,unix/jetson-desktop:/tmp/.ICE-unix/7721', 'INVOCATION_ID': '79e53801b23a44c39ab1acbefe22d05e', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c751dc8a_fc19_4034_acf5_a97fdc810190', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.84', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/kalman_filter_jetracer:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/jetson/.virtualenvs', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/local/bin/virtualenvwrapper.sh', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jetson/ros2_ws/build/jetson', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ros2_ws/build/jetson/prefix_override:/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver'}, 'shell': False}
+[16.118627] (-) TimerEvent: {}
+[16.159241] (jetracer_description) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/jetracer_description', 'build', '--build-base', '/home/jetson/ros2_ws/build/jetracer_description/build', 'install', '--record', '/home/jetson/ros2_ws/build/jetracer_description/install.log', '--install-scripts', '$base/lib/jetracer_description', '--single-version-externally-managed'], 'cwd': '/home/jetson/ros2_ws/src/jetracer_description', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'VIRTUALENVWRAPPER_WORKON_CD': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKON_HOME': '/home/jetson/.virtualenvs', 'USER': 'jetson', 'LC_TIME': 'en_GB.UTF-8', 'SSH_AGENT_PID': '7682', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/jetson', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'OLDPWD': '/home/jetson', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_GB.UTF-8', 'MANAGERPID': '7307', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/ros2_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'jetson', 'JOURNAL_STREAM': '8:39287', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/jetson-desktop:@/tmp/.ICE-unix/7721,unix/jetson-desktop:/tmp/.ICE-unix/7721', 'INVOCATION_ID': '79e53801b23a44c39ab1acbefe22d05e', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c751dc8a_fc19_4034_acf5_a97fdc810190', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.84', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/kalman_filter_jetracer:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/jetson/.virtualenvs', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/local/bin/virtualenvwrapper.sh', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jetson/ros2_ws/build/jetracer_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ros2_ws/build/jetracer_description/prefix_override:/home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver'}, 'shell': False}
+[16.218807] (-) TimerEvent: {}
+[16.320194] (-) TimerEvent: {}
+[16.421416] (-) TimerEvent: {}
+[16.462361] (kalman_filter_jetracer) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/kalman_filter_jetracer', 'build', '--build-base', '/home/jetson/ros2_ws/build/kalman_filter_jetracer/build', 'install', '--record', '/home/jetson/ros2_ws/build/kalman_filter_jetracer/install.log', '--single-version-externally-managed'], 'cwd': '/home/jetson/ros2_ws/src/kalman_filter_jetracer', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'VIRTUALENVWRAPPER_WORKON_CD': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKON_HOME': '/home/jetson/.virtualenvs', 'USER': 'jetson', 'LC_TIME': 'en_GB.UTF-8', 'SSH_AGENT_PID': '7682', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/jetson', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'OLDPWD': '/home/jetson', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_GB.UTF-8', 'MANAGERPID': '7307', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/ros2_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'jetson', 'JOURNAL_STREAM': '8:39287', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/jetson-desktop:@/tmp/.ICE-unix/7721,unix/jetson-desktop:/tmp/.ICE-unix/7721', 'INVOCATION_ID': '79e53801b23a44c39ab1acbefe22d05e', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c751dc8a_fc19_4034_acf5_a97fdc810190', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.84', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/kalman_filter_jetracer:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/jetson/.virtualenvs', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/local/bin/virtualenvwrapper.sh', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jetson/ros2_ws/build/kalman_filter_jetracer', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ros2_ws/build/kalman_filter_jetracer/prefix_override:/home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver'}, 'shell': False}
+[16.521690] (-) TimerEvent: {}
+[16.623520] (-) TimerEvent: {}
+[16.724657] (-) TimerEvent: {}
+[16.825922] (-) TimerEvent: {}
+[16.927057] (-) TimerEvent: {}
+[17.028064] (-) TimerEvent: {}
+[17.129293] (-) TimerEvent: {}
+[17.230262] (-) TimerEvent: {}
+[17.331329] (-) TimerEvent: {}
+[17.432362] (-) TimerEvent: {}
+[17.534010] (-) TimerEvent: {}
+[17.635082] (-) TimerEvent: {}
+[17.735886] (-) TimerEvent: {}
+[17.836989] (-) TimerEvent: {}
+[17.938098] (-) TimerEvent: {}
+[18.039082] (-) TimerEvent: {}
+[18.140139] (-) TimerEvent: {}
+[18.240855] (-) TimerEvent: {}
+[18.341911] (-) TimerEvent: {}
+[18.442998] (-) TimerEvent: {}
+[18.544027] (-) TimerEvent: {}
+[18.578392] (jetracer_description) StderrLine: {'line': b"/home/jetson/.local/lib/python3.8/site-packages/setuptools/dist.py:770: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[18.579300] (jetracer_description) StderrLine: {'line': b'  warnings.warn(\n'}
+[18.644208] (-) TimerEvent: {}
+[18.745727] (-) TimerEvent: {}
+[18.846796] (-) TimerEvent: {}
+[18.948232] (-) TimerEvent: {}
+[19.049108] (-) TimerEvent: {}
+[19.150732] (-) TimerEvent: {}
+[19.251484] (-) TimerEvent: {}
+[19.275162] (jetson) StdoutLine: {'line': b'running egg_info\n'}
+[19.351651] (-) TimerEvent: {}
+[19.452786] (-) TimerEvent: {}
+[19.525246] (jetson) StdoutLine: {'line': b'writing ../../build/jetson/jetson.egg-info/PKG-INFO\n'}
+[19.527840] (jetson) StdoutLine: {'line': b'writing dependency_links to ../../build/jetson/jetson.egg-info/dependency_links.txt\n'}
+[19.529536] (jetson) StdoutLine: {'line': b'writing entry points to ../../build/jetson/jetson.egg-info/entry_points.txt\n'}
+[19.530461] (jetson) StdoutLine: {'line': b'writing requirements to ../../build/jetson/jetson.egg-info/requires.txt\n'}
+[19.531238] (jetson) StdoutLine: {'line': b'writing top-level names to ../../build/jetson/jetson.egg-info/top_level.txt\n'}
+[19.552950] (-) TimerEvent: {}
+[19.590540] (jetracer_description) StdoutLine: {'line': b'running egg_info\n'}
+[19.653134] (-) TimerEvent: {}
+[19.754310] (-) TimerEvent: {}
+[19.802084] (jetracer_description) StdoutLine: {'line': b'writing ../../build/jetracer_description/jetracer_description.egg-info/PKG-INFO\n'}
+[19.804290] (jetracer_description) StdoutLine: {'line': b'writing dependency_links to ../../build/jetracer_description/jetracer_description.egg-info/dependency_links.txt\n'}
+[19.805058] (jetracer_description) StdoutLine: {'line': b'writing entry points to ../../build/jetracer_description/jetracer_description.egg-info/entry_points.txt\n'}
+[19.805985] (jetracer_description) StdoutLine: {'line': b'writing requirements to ../../build/jetracer_description/jetracer_description.egg-info/requires.txt\n'}
+[19.807243] (jetracer_description) StdoutLine: {'line': b'writing top-level names to ../../build/jetracer_description/jetracer_description.egg-info/top_level.txt\n'}
+[19.854525] (-) TimerEvent: {}
+[19.863810] (kalman_filter_jetracer) StdoutLine: {'line': b'running egg_info\n'}
+[19.866134] (jetson) StdoutLine: {'line': b"reading manifest file '../../build/jetson/jetson.egg-info/SOURCES.txt'\n"}
+[19.871822] (jetson) StdoutLine: {'line': b"writing manifest file '../../build/jetson/jetson.egg-info/SOURCES.txt'\n"}
+[19.873519] (jetson) StdoutLine: {'line': b'running build\n'}
+[19.874693] (jetson) StdoutLine: {'line': b'running build_py\n'}
+[19.876758] (jetson) StdoutLine: {'line': b'copying jetson/subscriberV2.py -> /home/jetson/ros2_ws/build/jetson/build/lib/jetson\n'}
+[19.879317] (jetson) StdoutLine: {'line': b'running install\n'}
+[19.880700] (jetson) StderrLine: {'line': b'/home/jetson/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[19.882890] (jetson) StderrLine: {'line': b'  warnings.warn(\n'}
+[19.920521] (jetson) StdoutLine: {'line': b'running install_lib\n'}
+[19.954706] (-) TimerEvent: {}
+[20.055805] (-) TimerEvent: {}
+[20.058385] (kalman_filter_jetracer) StdoutLine: {'line': b'writing ../../build/kalman_filter_jetracer/kalman_filter_jetracer.egg-info/PKG-INFO\n'}
+[20.059608] (kalman_filter_jetracer) StdoutLine: {'line': b'writing dependency_links to ../../build/kalman_filter_jetracer/kalman_filter_jetracer.egg-info/dependency_links.txt\n'}
+[20.060561] (kalman_filter_jetracer) StdoutLine: {'line': b'writing entry points to ../../build/kalman_filter_jetracer/kalman_filter_jetracer.egg-info/entry_points.txt\n'}
+[20.061331] (kalman_filter_jetracer) StdoutLine: {'line': b'writing requirements to ../../build/kalman_filter_jetracer/kalman_filter_jetracer.egg-info/requires.txt\n'}
+[20.062007] (kalman_filter_jetracer) StdoutLine: {'line': b'writing top-level names to ../../build/kalman_filter_jetracer/kalman_filter_jetracer.egg-info/top_level.txt\n'}
+[20.073344] (jetson) StdoutLine: {'line': b'copying /home/jetson/ros2_ws/build/jetson/build/lib/jetson/subscriberV2.py -> /home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages/jetson\n'}
+[20.076327] (jetson) StdoutLine: {'line': b'byte-compiling /home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages/jetson/subscriberV2.py to subscriberV2.cpython-38.pyc\n'}
+[20.080430] (jetson) StdoutLine: {'line': b'running install_data\n'}
+[20.155971] (-) TimerEvent: {}
+[20.171741] (jetracer_description) StdoutLine: {'line': b"reading manifest file '../../build/jetracer_description/jetracer_description.egg-info/SOURCES.txt'\n"}
+[20.177934] (jetracer_description) StdoutLine: {'line': b"writing manifest file '../../build/jetracer_description/jetracer_description.egg-info/SOURCES.txt'\n"}
+[20.179027] (jetracer_description) StdoutLine: {'line': b'running build\n'}
+[20.179529] (jetracer_description) StdoutLine: {'line': b'running build_py\n'}
+[20.180648] (jetracer_description) StdoutLine: {'line': b'running install\n'}
+[20.181451] (jetracer_description) StderrLine: {'line': b'/home/jetson/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[20.181935] (jetracer_description) StderrLine: {'line': b'  warnings.warn(\n'}
+[20.219162] (jetson) StdoutLine: {'line': b'running install_egg_info\n'}
+[20.224592] (jetracer_description) StdoutLine: {'line': b'running install_lib\n'}
+[20.256131] (-) TimerEvent: {}
+[20.342840] (kalman_filter_jetracer) StdoutLine: {'line': b"reading manifest file '../../build/kalman_filter_jetracer/kalman_filter_jetracer.egg-info/SOURCES.txt'\n"}
+[20.347967] (kalman_filter_jetracer) StdoutLine: {'line': b"writing manifest file '../../build/kalman_filter_jetracer/kalman_filter_jetracer.egg-info/SOURCES.txt'\n"}
+[20.350106] (kalman_filter_jetracer) StdoutLine: {'line': b'running build\n'}
+[20.352578] (kalman_filter_jetracer) StdoutLine: {'line': b'running build_py\n'}
+[20.353471] (kalman_filter_jetracer) StdoutLine: {'line': b'running install\n'}
+[20.354218] (kalman_filter_jetracer) StderrLine: {'line': b'/home/jetson/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[20.354810] (kalman_filter_jetracer) StderrLine: {'line': b'  warnings.warn(\n'}
+[20.356603] (-) TimerEvent: {}
+[20.361373] (jetson) StdoutLine: {'line': b"removing '/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages/jetson-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[20.363084] (jetson) StdoutLine: {'line': b'Copying ../../build/jetson/jetson.egg-info to /home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages/jetson-0.0.0-py3.8.egg-info\n'}
+[20.367556] (jetson) StdoutLine: {'line': b'running install_scripts\n'}
+[20.393578] (kalman_filter_jetracer) StdoutLine: {'line': b'running install_lib\n'}
+[20.401439] (jetracer_description) StdoutLine: {'line': b'running install_data\n'}
+[20.456772] (-) TimerEvent: {}
+[20.551162] (kalman_filter_jetracer) StdoutLine: {'line': b'running install_data\n'}
+[20.556940] (-) TimerEvent: {}
+[20.574882] (jetracer_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[20.657105] (-) TimerEvent: {}
+[20.692088] (kalman_filter_jetracer) StdoutLine: {'line': b'running install_egg_info\n'}
+[20.740838] (jetracer_description) StdoutLine: {'line': b"removing '/home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages/jetracer_description-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[20.742400] (jetracer_description) StdoutLine: {'line': b'Copying ../../build/jetracer_description/jetracer_description.egg-info to /home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages/jetracer_description-0.0.0-py3.8.egg-info\n'}
+[20.747323] (jetracer_description) StdoutLine: {'line': b'running install_scripts\n'}
+[20.757320] (-) TimerEvent: {}
+[20.828104] (kalman_filter_jetracer) StdoutLine: {'line': b"removing '/home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages/kalman_filter_jetracer-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[20.829904] (kalman_filter_jetracer) StdoutLine: {'line': b'Copying ../../build/kalman_filter_jetracer/kalman_filter_jetracer.egg-info to /home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages/kalman_filter_jetracer-0.0.0-py3.8.egg-info\n'}
+[20.834995] (kalman_filter_jetracer) StdoutLine: {'line': b'running install_scripts\n'}
+[20.851440] (jetson) StdoutLine: {'line': b'Installing listener script to /home/jetson/ros2_ws/install/jetson/lib/jetson\n'}
+[20.853620] (jetson) StdoutLine: {'line': b'Installing x_sensv2 script to /home/jetson/ros2_ws/install/jetson/lib/jetson\n'}
+[20.856449] (jetson) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ros2_ws/build/jetson/install.log'\n"}
+[20.857445] (-) TimerEvent: {}
+[20.958395] (-) TimerEvent: {}
+[21.060474] (-) TimerEvent: {}
+[21.081638] (jetson) CommandEnded: {'returncode': 0}
+[21.164299] (-) TimerEvent: {}
+[21.265064] (-) TimerEvent: {}
+[21.355720] (jetracer_description) StdoutLine: {'line': b'Installing controller script to /home/jetson/ros2_ws/install/jetracer_description/lib/jetracer_description\n'}
+[21.356568] (jetracer_description) StdoutLine: {'line': b'Installing wheel_steer script to /home/jetson/ros2_ws/install/jetracer_description/lib/jetracer_description\n'}
+[21.360198] (jetracer_description) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ros2_ws/build/jetracer_description/install.log'\n"}
+[21.361658] (kalman_filter_jetracer) StdoutLine: {'line': b'Installing kalman script to /home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/kalman_filter_jetracer\n'}
+[21.364667] (kalman_filter_jetracer) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ros2_ws/build/kalman_filter_jetracer/install.log'\n"}
+[21.365873] (-) TimerEvent: {}
+[21.467686] (-) TimerEvent: {}
+[21.552014] (jetson) JobEnded: {'identifier': 'jetson', 'rc': 0}
+[21.567887] (-) TimerEvent: {}
+[21.633564] (kalman_filter_jetracer) CommandEnded: {'returncode': 0}
+[21.668329] (-) TimerEvent: {}
+[21.769351] (-) TimerEvent: {}
+[21.870361] (-) TimerEvent: {}
+[21.962833] (kalman_filter_jetracer) JobEnded: {'identifier': 'kalman_filter_jetracer', 'rc': 0}
+[21.969308] (test_jetson) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/test_jetson', 'build', '--build-base', '/home/jetson/ros2_ws/build/test_jetson/build', 'install', '--record', '/home/jetson/ros2_ws/build/test_jetson/install.log', '--single-version-externally-managed'], 'cwd': '/home/jetson/ros2_ws/src/realsens_speed_sens', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'VIRTUALENVWRAPPER_WORKON_CD': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKON_HOME': '/home/jetson/.virtualenvs', 'USER': 'jetson', 'LC_TIME': 'en_GB.UTF-8', 'SSH_AGENT_PID': '7682', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/jetson', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'OLDPWD': '/home/jetson', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_GB.UTF-8', 'MANAGERPID': '7307', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/ros2_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'jetson', 'JOURNAL_STREAM': '8:39287', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/jetson-desktop:@/tmp/.ICE-unix/7721,unix/jetson-desktop:/tmp/.ICE-unix/7721', 'INVOCATION_ID': '79e53801b23a44c39ab1acbefe22d05e', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c751dc8a_fc19_4034_acf5_a97fdc810190', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.84', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/kalman_filter_jetracer:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/jetson/.virtualenvs', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/local/bin/virtualenvwrapper.sh', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jetson/ros2_ws/build/test_jetson', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ros2_ws/build/test_jetson/prefix_override:/home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver'}, 'shell': False}
+[21.978951] (-) TimerEvent: {}
+[21.983837] (jetracer_description) CommandEnded: {'returncode': 0}
+[22.079130] (-) TimerEvent: {}
+[22.180004] (-) TimerEvent: {}
+[22.281146] (-) TimerEvent: {}
+[22.309794] (jetracer_description) JobEnded: {'identifier': 'jetracer_description', 'rc': 0}
+[22.381364] (-) TimerEvent: {}
+[22.481950] (-) TimerEvent: {}
+[22.582583] (-) TimerEvent: {}
+[22.683249] (-) TimerEvent: {}
+[22.783836] (-) TimerEvent: {}
+[22.884500] (-) TimerEvent: {}
+[22.986515] (-) TimerEvent: {}
+[23.087122] (-) TimerEvent: {}
+[23.187791] (-) TimerEvent: {}
+[23.288444] (-) TimerEvent: {}
+[23.389034] (-) TimerEvent: {}
+[23.493428] (-) TimerEvent: {}
+[23.594140] (-) TimerEvent: {}
+[23.694797] (-) TimerEvent: {}
+[23.795402] (-) TimerEvent: {}
+[23.896037] (-) TimerEvent: {}
+[23.996695] (-) TimerEvent: {}
+[24.097429] (-) TimerEvent: {}
+[24.198253] (-) TimerEvent: {}
+[24.299250] (-) TimerEvent: {}
+[24.400193] (-) TimerEvent: {}
+[24.500826] (-) TimerEvent: {}
+[24.550096] (test_jetson) StdoutLine: {'line': b'running egg_info\n'}
+[24.601009] (-) TimerEvent: {}
+[24.701813] (-) TimerEvent: {}
+[24.707229] (test_jetson) StdoutLine: {'line': b'writing ../../build/test_jetson/test_jetson.egg-info/PKG-INFO\n'}
+[24.708308] (test_jetson) StdoutLine: {'line': b'writing dependency_links to ../../build/test_jetson/test_jetson.egg-info/dependency_links.txt\n'}
+[24.709300] (test_jetson) StdoutLine: {'line': b'writing entry points to ../../build/test_jetson/test_jetson.egg-info/entry_points.txt\n'}
+[24.709905] (test_jetson) StdoutLine: {'line': b'writing requirements to ../../build/test_jetson/test_jetson.egg-info/requires.txt\n'}
+[24.710426] (test_jetson) StdoutLine: {'line': b'writing top-level names to ../../build/test_jetson/test_jetson.egg-info/top_level.txt\n'}
+[24.801967] (-) TimerEvent: {}
+[24.902568] (-) TimerEvent: {}
+[24.948865] (test_jetson) StdoutLine: {'line': b"reading manifest file '../../build/test_jetson/test_jetson.egg-info/SOURCES.txt'\n"}
+[24.952929] (test_jetson) StdoutLine: {'line': b"writing manifest file '../../build/test_jetson/test_jetson.egg-info/SOURCES.txt'\n"}
+[24.953782] (test_jetson) StdoutLine: {'line': b'running build\n'}
+[24.954210] (test_jetson) StdoutLine: {'line': b'running build_py\n'}
+[24.955667] (test_jetson) StdoutLine: {'line': b'running install\n'}
+[24.956305] (test_jetson) StderrLine: {'line': b'/home/jetson/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[24.956767] (test_jetson) StderrLine: {'line': b'  warnings.warn(\n'}
+[24.986053] (test_jetson) StdoutLine: {'line': b'running install_lib\n'}
+[25.002696] (-) TimerEvent: {}
+[25.103457] (-) TimerEvent: {}
+[25.108116] (test_jetson) StdoutLine: {'line': b'running install_data\n'}
+[25.203666] (-) TimerEvent: {}
+[25.225820] (test_jetson) StdoutLine: {'line': b'running install_egg_info\n'}
+[25.303870] (-) TimerEvent: {}
+[25.347554] (test_jetson) StdoutLine: {'line': b"removing '/home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages/test_jetson-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[25.348844] (test_jetson) StdoutLine: {'line': b'Copying ../../build/test_jetson/test_jetson.egg-info to /home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages/test_jetson-0.0.0-py3.8.egg-info\n'}
+[25.352517] (test_jetson) StdoutLine: {'line': b'running install_scripts\n'}
+[25.403989] (-) TimerEvent: {}
+[25.504654] (-) TimerEvent: {}
+[25.605290] (-) TimerEvent: {}
+[25.705903] (-) TimerEvent: {}
+[25.769734] (test_jetson) StdoutLine: {'line': b'Installing odom_cam script to /home/jetson/ros2_ws/install/test_jetson/lib/test_jetson\n'}
+[25.771257] (test_jetson) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ros2_ws/build/test_jetson/install.log'\n"}
+[25.806068] (-) TimerEvent: {}
+[25.906754] (-) TimerEvent: {}
+[25.977795] (test_jetson) CommandEnded: {'returncode': 0}
+[26.007443] (-) TimerEvent: {}
+[26.109011] (-) TimerEvent: {}
+[26.210507] (-) TimerEvent: {}
+[26.260670] (test_jetson) JobEnded: {'identifier': 'test_jetson', 'rc': 0}
+[26.265746] (-) EventReactorShutdown: {}

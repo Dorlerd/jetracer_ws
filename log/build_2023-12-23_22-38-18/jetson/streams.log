@@ -1,0 +1,24 @@
+[15.879s] Invoking command in '/home/jetson/ros2_ws/src/jetson': PYTHONPATH=/home/jetson/ros2_ws/build/jetson/prefix_override:/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jetson build --build-base /home/jetson/ros2_ws/build/jetson/build install --record /home/jetson/ros2_ws/build/jetson/install.log --single-version-externally-managed
+[19.582s] running egg_info
+[19.915s] writing ../../build/jetson/jetson.egg-info/PKG-INFO
+[19.922s] writing dependency_links to ../../build/jetson/jetson.egg-info/dependency_links.txt
+[19.923s] writing entry points to ../../build/jetson/jetson.egg-info/entry_points.txt
+[19.924s] writing requirements to ../../build/jetson/jetson.egg-info/requires.txt
+[19.925s] writing top-level names to ../../build/jetson/jetson.egg-info/top_level.txt
+[20.367s] reading manifest file '../../build/jetson/jetson.egg-info/SOURCES.txt'
+[20.385s] writing manifest file '../../build/jetson/jetson.egg-info/SOURCES.txt'
+[20.386s] running build
+[20.387s] running build_py
+[20.389s] running install
+[20.390s] /home/jetson/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[20.390s]   warnings.warn(
+[20.439s] running install_lib
+[20.647s] running install_data
+[20.865s] running install_egg_info
+[21.080s] removing '/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages/jetson-0.0.0-py3.8.egg-info' (and everything under it)
+[21.081s] Copying ../../build/jetson/jetson.egg-info to /home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages/jetson-0.0.0-py3.8.egg-info
+[21.088s] running install_scripts
+[21.694s] Installing listener script to /home/jetson/ros2_ws/install/jetson/lib/jetson
+[21.694s] Installing x_sensv2 script to /home/jetson/ros2_ws/install/jetson/lib/jetson
+[21.697s] writing list of installed files to '/home/jetson/ros2_ws/build/jetson/install.log'
+[21.947s] Invoked command in '/home/jetson/ros2_ws/src/jetson' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/jetson/prefix_override:/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jetson build --build-base /home/jetson/ros2_ws/build/jetson/build install --record /home/jetson/ros2_ws/build/jetson/install.log --single-version-externally-managed

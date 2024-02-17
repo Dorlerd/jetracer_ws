@@ -1,0 +1,341 @@
+[38.146s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[38.146s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa75c8a30>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa75c8a30>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa6f5f820>)
+[38.888s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[38.888s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[38.888s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[38.888s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[38.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[38.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[38.889s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/ros2_ws'
+[38.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[38.890s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[38.890s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[38.890s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[38.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[38.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[38.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[38.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[38.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[38.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[38.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[38.964s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[38.964s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[38.964s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[38.964s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[38.965s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[38.965s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[38.966s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[38.966s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[38.966s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[38.967s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[38.967s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[38.967s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[38.968s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[38.968s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[38.968s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[38.969s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[38.969s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[38.969s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[38.969s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[38.969s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[38.970s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[38.970s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[38.970s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[38.970s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[38.971s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[38.971s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[38.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extensions ['ignore', 'ignore_ament_install']
+[38.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extension 'ignore'
+[38.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extension 'ignore_ament_install'
+[38.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extensions ['colcon_pkg']
+[38.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extension 'colcon_pkg'
+[38.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extensions ['colcon_meta']
+[38.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extension 'colcon_meta'
+[38.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extensions ['ros']
+[38.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extension 'ros'
+[38.987s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bluespace_ai_xsens_ros_mti_driver' with type 'ros.ament_cmake' and name 'bluespace_ai_xsens_mti_driver'
+[38.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetracer_description) by extensions ['ignore', 'ignore_ament_install']
+[38.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetracer_description) by extension 'ignore'
+[38.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetracer_description) by extension 'ignore_ament_install'
+[38.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetracer_description) by extensions ['colcon_pkg']
+[38.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetracer_description) by extension 'colcon_pkg'
+[38.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetracer_description) by extensions ['colcon_meta']
+[38.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetracer_description) by extension 'colcon_meta'
+[38.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetracer_description) by extensions ['ros']
+[38.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetracer_description) by extension 'ros'
+[38.995s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jetracer_description' with type 'ros.ament_python' and name 'jetracer_description'
+[38.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson) by extensions ['ignore', 'ignore_ament_install']
+[38.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson) by extension 'ignore'
+[38.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson) by extension 'ignore_ament_install'
+[38.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson) by extensions ['colcon_pkg']
+[38.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson) by extension 'colcon_pkg'
+[38.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson) by extensions ['colcon_meta']
+[38.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson) by extension 'colcon_meta'
+[38.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson) by extensions ['ros']
+[38.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson) by extension 'ros'
+[39.002s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jetson' with type 'ros.ament_python' and name 'jetson'
+[39.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalman_filter_jetracer) by extensions ['ignore', 'ignore_ament_install']
+[39.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalman_filter_jetracer) by extension 'ignore'
+[39.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalman_filter_jetracer) by extension 'ignore_ament_install'
+[39.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalman_filter_jetracer) by extensions ['colcon_pkg']
+[39.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalman_filter_jetracer) by extension 'colcon_pkg'
+[39.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalman_filter_jetracer) by extensions ['colcon_meta']
+[39.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalman_filter_jetracer) by extension 'colcon_meta'
+[39.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalman_filter_jetracer) by extensions ['ros']
+[39.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalman_filter_jetracer) by extension 'ros'
+[39.008s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kalman_filter_jetracer' with type 'ros.ament_python' and name 'kalman_filter_jetracer'
+[39.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsens_speed_sens) by extensions ['ignore', 'ignore_ament_install']
+[39.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsens_speed_sens) by extension 'ignore'
+[39.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsens_speed_sens) by extension 'ignore_ament_install'
+[39.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsens_speed_sens) by extensions ['colcon_pkg']
+[39.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsens_speed_sens) by extension 'colcon_pkg'
+[39.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsens_speed_sens) by extensions ['colcon_meta']
+[39.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsens_speed_sens) by extension 'colcon_meta'
+[39.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsens_speed_sens) by extensions ['ros']
+[39.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsens_speed_sens) by extension 'ros'
+[39.016s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsens_speed_sens' with type 'ros.ament_python' and name 'test_jetson'
+[39.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[39.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[39.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[39.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[39.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[39.535s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[39.535s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[39.709s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/jetson/ros2_ws/install
+[39.796s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 280 installed packages in /opt/ros/galactic
+[39.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[40.682s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_args' from command line to 'None'
+[40.682s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_target' from command line to 'None'
+[40.683s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[40.683s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[40.683s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_clean_first' from command line to 'False'
+[40.683s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_force_configure' from command line to 'False'
+[40.683s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'ament_cmake_args' from command line to 'None'
+[40.683s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[40.683s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[40.684s] DEBUG:colcon.colcon_core.verb:Building package 'bluespace_ai_xsens_mti_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver', 'symlink_install': False, 'test_result_base': None}
+[40.766s] Level 5:colcon.colcon_core.verb:set package 'jetracer_description' build argument 'cmake_args' from command line to 'None'
+[40.767s] Level 5:colcon.colcon_core.verb:set package 'jetracer_description' build argument 'cmake_target' from command line to 'None'
+[40.767s] Level 5:colcon.colcon_core.verb:set package 'jetracer_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[40.767s] Level 5:colcon.colcon_core.verb:set package 'jetracer_description' build argument 'cmake_clean_cache' from command line to 'False'
+[40.767s] Level 5:colcon.colcon_core.verb:set package 'jetracer_description' build argument 'cmake_clean_first' from command line to 'False'
+[40.767s] Level 5:colcon.colcon_core.verb:set package 'jetracer_description' build argument 'cmake_force_configure' from command line to 'False'
+[40.767s] Level 5:colcon.colcon_core.verb:set package 'jetracer_description' build argument 'ament_cmake_args' from command line to 'None'
+[40.767s] Level 5:colcon.colcon_core.verb:set package 'jetracer_description' build argument 'catkin_cmake_args' from command line to 'None'
+[40.767s] Level 5:colcon.colcon_core.verb:set package 'jetracer_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[40.768s] DEBUG:colcon.colcon_core.verb:Building package 'jetracer_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/jetracer_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/jetracer_description', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/jetracer_description', 'symlink_install': False, 'test_result_base': None}
+[40.853s] Level 5:colcon.colcon_core.verb:set package 'jetson' build argument 'cmake_args' from command line to 'None'
+[40.854s] Level 5:colcon.colcon_core.verb:set package 'jetson' build argument 'cmake_target' from command line to 'None'
+[40.854s] Level 5:colcon.colcon_core.verb:set package 'jetson' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[40.854s] Level 5:colcon.colcon_core.verb:set package 'jetson' build argument 'cmake_clean_cache' from command line to 'False'
+[40.854s] Level 5:colcon.colcon_core.verb:set package 'jetson' build argument 'cmake_clean_first' from command line to 'False'
+[40.854s] Level 5:colcon.colcon_core.verb:set package 'jetson' build argument 'cmake_force_configure' from command line to 'False'
+[40.854s] Level 5:colcon.colcon_core.verb:set package 'jetson' build argument 'ament_cmake_args' from command line to 'None'
+[40.854s] Level 5:colcon.colcon_core.verb:set package 'jetson' build argument 'catkin_cmake_args' from command line to 'None'
+[40.855s] Level 5:colcon.colcon_core.verb:set package 'jetson' build argument 'catkin_skip_building_tests' from command line to 'False'
+[40.855s] DEBUG:colcon.colcon_core.verb:Building package 'jetson' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/jetson', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/jetson', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/jetson', 'symlink_install': False, 'test_result_base': None}
+[40.937s] Level 5:colcon.colcon_core.verb:set package 'kalman_filter_jetracer' build argument 'cmake_args' from command line to 'None'
+[40.937s] Level 5:colcon.colcon_core.verb:set package 'kalman_filter_jetracer' build argument 'cmake_target' from command line to 'None'
+[40.937s] Level 5:colcon.colcon_core.verb:set package 'kalman_filter_jetracer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[40.937s] Level 5:colcon.colcon_core.verb:set package 'kalman_filter_jetracer' build argument 'cmake_clean_cache' from command line to 'False'
+[40.938s] Level 5:colcon.colcon_core.verb:set package 'kalman_filter_jetracer' build argument 'cmake_clean_first' from command line to 'False'
+[40.938s] Level 5:colcon.colcon_core.verb:set package 'kalman_filter_jetracer' build argument 'cmake_force_configure' from command line to 'False'
+[40.938s] Level 5:colcon.colcon_core.verb:set package 'kalman_filter_jetracer' build argument 'ament_cmake_args' from command line to 'None'
+[40.938s] Level 5:colcon.colcon_core.verb:set package 'kalman_filter_jetracer' build argument 'catkin_cmake_args' from command line to 'None'
+[40.938s] Level 5:colcon.colcon_core.verb:set package 'kalman_filter_jetracer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[40.939s] DEBUG:colcon.colcon_core.verb:Building package 'kalman_filter_jetracer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/kalman_filter_jetracer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/kalman_filter_jetracer', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/kalman_filter_jetracer', 'symlink_install': False, 'test_result_base': None}
+[41.023s] Level 5:colcon.colcon_core.verb:set package 'test_jetson' build argument 'cmake_args' from command line to 'None'
+[41.023s] Level 5:colcon.colcon_core.verb:set package 'test_jetson' build argument 'cmake_target' from command line to 'None'
+[41.023s] Level 5:colcon.colcon_core.verb:set package 'test_jetson' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[41.024s] Level 5:colcon.colcon_core.verb:set package 'test_jetson' build argument 'cmake_clean_cache' from command line to 'False'
+[41.024s] Level 5:colcon.colcon_core.verb:set package 'test_jetson' build argument 'cmake_clean_first' from command line to 'False'
+[41.024s] Level 5:colcon.colcon_core.verb:set package 'test_jetson' build argument 'cmake_force_configure' from command line to 'False'
+[41.024s] Level 5:colcon.colcon_core.verb:set package 'test_jetson' build argument 'ament_cmake_args' from command line to 'None'
+[41.024s] Level 5:colcon.colcon_core.verb:set package 'test_jetson' build argument 'catkin_cmake_args' from command line to 'None'
+[41.024s] Level 5:colcon.colcon_core.verb:set package 'test_jetson' build argument 'catkin_skip_building_tests' from command line to 'False'
+[41.024s] DEBUG:colcon.colcon_core.verb:Building package 'test_jetson' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/test_jetson', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/test_jetson', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/realsens_speed_sens', 'symlink_install': False, 'test_result_base': None}
+[41.108s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[41.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[41.195s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver' with build type 'ament_cmake'
+[41.195s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver'
+[41.300s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[41.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[41.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[41.574s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ros2_ws/src/jetracer_description' with build type 'ament_python'
+[41.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetracer_description', 'ament_prefix_path')
+[41.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/hook/ament_prefix_path.ps1'
+[41.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/hook/ament_prefix_path.dsv'
+[41.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/hook/ament_prefix_path.sh'
+[41.778s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[41.778s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[42.228s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ros2_ws/src/jetson' with build type 'ament_python'
+[42.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetson', 'ament_prefix_path')
+[42.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/jetson/share/jetson/hook/ament_prefix_path.ps1'
+[42.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/jetson/share/jetson/hook/ament_prefix_path.dsv'
+[42.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/jetson/share/jetson/hook/ament_prefix_path.sh'
+[42.754s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[42.755s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[43.480s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ros2_ws/src/kalman_filter_jetracer' with build type 'ament_python'
+[43.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('kalman_filter_jetracer', 'ament_prefix_path')
+[43.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/kalman_filter_jetracer/share/kalman_filter_jetracer/hook/ament_prefix_path.ps1'
+[43.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/kalman_filter_jetracer/share/kalman_filter_jetracer/hook/ament_prefix_path.dsv'
+[43.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/kalman_filter_jetracer/share/kalman_filter_jetracer/hook/ament_prefix_path.sh'
+[44.269s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[44.269s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[45.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/kalman_filter_jetracer:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/opt/ros/galactic /usr/bin/cmake --build /home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[54.560s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ros2_ws/src/jetracer_description'
+[54.684s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[54.684s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[57.421s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ros2_ws/src/jetson'
+[57.502s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[57.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[57.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/kalman_filter_jetracer:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/opt/ros/galactic /usr/bin/cmake --build /home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[60.270s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ros2_ws/src/kalman_filter_jetracer'
+[60.381s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[60.381s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[60.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/kalman_filter_jetracer:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/opt/ros/galactic /usr/bin/cmake --install /home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver
+[60.916s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bluespace_ai_xsens_mti_driver)
+[60.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/kalman_filter_jetracer:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/opt/ros/galactic /usr/bin/cmake --install /home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver
+[61.110s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver' for CMake module files
+[61.114s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver' for CMake config files
+[61.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('bluespace_ai_xsens_mti_driver', 'cmake_prefix_path')
+[61.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/hook/cmake_prefix_path.ps1'
+[61.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/hook/cmake_prefix_path.dsv'
+[61.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/hook/cmake_prefix_path.sh'
+[61.358s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib'
+[61.359s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/bin'
+[61.360s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/pkgconfig/bluespace_ai_xsens_mti_driver.pc'
+[61.361s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/python3.8/site-packages'
+[61.362s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/bin'
+[61.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.ps1'
+[61.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.dsv'
+[61.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.sh'
+[61.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.bash'
+[61.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.zsh'
+[61.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/colcon-core/packages/bluespace_ai_xsens_mti_driver)
+[62.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bluespace_ai_xsens_mti_driver)
+[62.163s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver' for CMake module files
+[62.166s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver' for CMake config files
+[62.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('bluespace_ai_xsens_mti_driver', 'cmake_prefix_path')
+[62.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/hook/cmake_prefix_path.ps1'
+[62.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/hook/cmake_prefix_path.dsv'
+[62.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/hook/cmake_prefix_path.sh'
+[62.273s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib'
+[62.274s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/bin'
+[62.274s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/pkgconfig/bluespace_ai_xsens_mti_driver.pc'
+[62.284s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/python3.8/site-packages'
+[62.284s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/bin'
+[62.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.ps1'
+[62.505s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.dsv'
+[62.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.sh'
+[62.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.bash'
+[62.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.zsh'
+[62.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/colcon-core/packages/bluespace_ai_xsens_mti_driver)
+[62.533s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ros2_ws/src/realsens_speed_sens' with build type 'ament_python'
+[62.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_jetson', 'ament_prefix_path')
+[62.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/test_jetson/share/test_jetson/hook/ament_prefix_path.ps1'
+[62.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/test_jetson/share/test_jetson/hook/ament_prefix_path.dsv'
+[62.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/test_jetson/share/test_jetson/hook/ament_prefix_path.sh'
+[62.770s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[62.771s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[66.907s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ros2_ws/src/realsens_speed_sens'
+[67.002s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[67.002s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[67.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/src/jetracer_description': PYTHONPATH=/home/jetson/ros2_ws/build/jetracer_description/prefix_override:/home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jetracer_description build --build-base /home/jetson/ros2_ws/build/jetracer_description/build install --record /home/jetson/ros2_ws/build/jetracer_description/install.log --install-scripts $base/lib/jetracer_description --single-version-externally-managed
+[67.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/src/kalman_filter_jetracer': PYTHONPATH=/home/jetson/ros2_ws/build/kalman_filter_jetracer/prefix_override:/home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kalman_filter_jetracer build --build-base /home/jetson/ros2_ws/build/kalman_filter_jetracer/build install --record /home/jetson/ros2_ws/build/kalman_filter_jetracer/install.log --single-version-externally-managed
+[67.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/src/jetson': PYTHONPATH=/home/jetson/ros2_ws/build/jetson/prefix_override:/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jetson build --build-base /home/jetson/ros2_ws/build/jetson/build install --record /home/jetson/ros2_ws/build/jetson/install.log --single-version-externally-managed
+[72.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/src/kalman_filter_jetracer' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/kalman_filter_jetracer/prefix_override:/home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kalman_filter_jetracer build --build-base /home/jetson/ros2_ws/build/kalman_filter_jetracer/build install --record /home/jetson/ros2_ws/build/kalman_filter_jetracer/install.log --single-version-externally-managed
+[72.810s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kalman_filter_jetracer' for CMake module files
+[72.813s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kalman_filter_jetracer' for CMake config files
+[72.816s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kalman_filter_jetracer/lib'
+[72.816s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kalman_filter_jetracer/bin'
+[72.817s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/pkgconfig/kalman_filter_jetracer.pc'
+[72.818s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages'
+[72.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('kalman_filter_jetracer', 'pythonpath')
+[72.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/kalman_filter_jetracer/share/kalman_filter_jetracer/hook/pythonpath.ps1'
+[72.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/kalman_filter_jetracer/share/kalman_filter_jetracer/hook/pythonpath.dsv'
+[72.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/kalman_filter_jetracer/share/kalman_filter_jetracer/hook/pythonpath.sh'
+[72.915s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kalman_filter_jetracer/bin'
+[72.916s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kalman_filter_jetracer)
+[73.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/kalman_filter_jetracer/share/kalman_filter_jetracer/package.ps1'
+[73.003s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/kalman_filter_jetracer/share/kalman_filter_jetracer/package.dsv'
+[73.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/kalman_filter_jetracer/share/kalman_filter_jetracer/package.sh'
+[73.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/kalman_filter_jetracer/share/kalman_filter_jetracer/package.bash'
+[73.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/kalman_filter_jetracer/share/kalman_filter_jetracer/package.zsh'
+[73.009s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/kalman_filter_jetracer/share/colcon-core/packages/kalman_filter_jetracer)
+[73.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/src/jetson' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/jetson/prefix_override:/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jetson build --build-base /home/jetson/ros2_ws/build/jetson/build install --record /home/jetson/ros2_ws/build/jetson/install.log --single-version-externally-managed
+[73.099s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/jetson' for CMake module files
+[73.102s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/jetson' for CMake config files
+[73.106s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/jetson/lib'
+[73.106s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/jetson/bin'
+[73.107s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/jetson/lib/pkgconfig/jetson.pc'
+[73.108s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages'
+[73.108s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetson', 'pythonpath')
+[73.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/jetson/share/jetson/hook/pythonpath.ps1'
+[73.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/jetson/share/jetson/hook/pythonpath.dsv'
+[73.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/jetson/share/jetson/hook/pythonpath.sh'
+[73.201s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/jetson/bin'
+[73.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jetson)
+[73.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/jetson/share/jetson/package.ps1'
+[73.290s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/jetson/share/jetson/package.dsv'
+[73.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/jetson/share/jetson/package.sh'
+[73.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/jetson/share/jetson/package.bash'
+[73.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/jetson/share/jetson/package.zsh'
+[73.297s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/jetson/share/colcon-core/packages/jetson)
+[73.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/src/realsens_speed_sens': PYTHONPATH=/home/jetson/ros2_ws/build/test_jetson/prefix_override:/home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_jetson build --build-base /home/jetson/ros2_ws/build/test_jetson/build install --record /home/jetson/ros2_ws/build/test_jetson/install.log --single-version-externally-managed
+[73.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/src/jetracer_description' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/jetracer_description/prefix_override:/home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jetracer_description build --build-base /home/jetson/ros2_ws/build/jetracer_description/build install --record /home/jetson/ros2_ws/build/jetracer_description/install.log --install-scripts $base/lib/jetracer_description --single-version-externally-managed
+[73.422s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/jetracer_description' for CMake module files
+[73.425s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/jetracer_description' for CMake config files
+[73.428s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/jetracer_description/lib'
+[73.429s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/jetracer_description/bin'
+[73.429s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/jetracer_description/lib/pkgconfig/jetracer_description.pc'
+[73.430s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages'
+[73.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetracer_description', 'pythonpath')
+[73.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/hook/pythonpath.ps1'
+[73.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/hook/pythonpath.dsv'
+[73.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/hook/pythonpath.sh'
+[73.528s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/jetracer_description/bin'
+[73.528s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jetracer_description)
+[73.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/package.ps1'
+[73.618s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/package.dsv'
+[73.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/package.sh'
+[73.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/package.bash'
+[73.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/package.zsh'
+[73.625s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/jetracer_description/share/colcon-core/packages/jetracer_description)
+[77.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/src/realsens_speed_sens' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/test_jetson/prefix_override:/home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_jetson build --build-base /home/jetson/ros2_ws/build/test_jetson/build install --record /home/jetson/ros2_ws/build/test_jetson/install.log --single-version-externally-managed
+[77.130s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/test_jetson' for CMake module files
+[77.133s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/test_jetson' for CMake config files
+[77.135s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/test_jetson/lib'
+[77.135s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/test_jetson/bin'
+[77.136s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/test_jetson/lib/pkgconfig/test_jetson.pc'
+[77.137s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages'
+[77.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_jetson', 'pythonpath')
+[77.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/test_jetson/share/test_jetson/hook/pythonpath.ps1'
+[77.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/test_jetson/share/test_jetson/hook/pythonpath.dsv'
+[77.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/test_jetson/share/test_jetson/hook/pythonpath.sh'
+[77.222s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/test_jetson/bin'
+[77.222s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_jetson)
+[77.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/test_jetson/share/test_jetson/package.ps1'
+[77.304s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/test_jetson/share/test_jetson/package.dsv'
+[77.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/test_jetson/share/test_jetson/package.sh'
+[77.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/test_jetson/share/test_jetson/package.bash'
+[77.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/test_jetson/share/test_jetson/package.zsh'
+[77.310s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/test_jetson/share/colcon-core/packages/test_jetson)
+[77.311s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[77.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[77.314s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[77.314s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[77.438s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[77.439s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[77.439s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[77.493s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[77.583s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.ps1'
+[77.589s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros2_ws/install/_local_setup_util_ps1.py'
+[77.596s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.ps1'
+[77.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.sh'
+[77.690s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros2_ws/install/_local_setup_util_sh.py'
+[77.692s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.sh'
+[77.777s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.bash'
+[77.780s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.bash'
+[77.865s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.zsh'
+[77.869s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.zsh'

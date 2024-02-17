@@ -1,0 +1,245 @@
+[0.000000] (-) TimerEvent: {}
+[0.000538] (-) JobUnselected: {'identifier': 'bluespace_ai_xsens_mti_driver'}
+[0.000703] (-) JobUnselected: {'identifier': 'jetracer_description'}
+[0.000955] (-) JobUnselected: {'identifier': 'jetson'}
+[0.001081] (-) JobUnselected: {'identifier': 'test_jetson'}
+[0.001205] (kalman_filter_jetracer) JobQueued: {'identifier': 'kalman_filter_jetracer', 'dependencies': OrderedDict()}
+[0.001328] (kalman_filter_jetracer) JobStarted: {'identifier': 'kalman_filter_jetracer'}
+[0.094758] (-) TimerEvent: {}
+[0.197291] (-) TimerEvent: {}
+[0.298696] (-) TimerEvent: {}
+[0.399439] (-) TimerEvent: {}
+[0.500717] (-) TimerEvent: {}
+[0.606780] (-) TimerEvent: {}
+[0.708078] (-) TimerEvent: {}
+[0.812962] (-) TimerEvent: {}
+[0.913689] (-) TimerEvent: {}
+[1.014912] (-) TimerEvent: {}
+[1.116048] (-) TimerEvent: {}
+[1.216694] (-) TimerEvent: {}
+[1.317641] (-) TimerEvent: {}
+[1.418275] (-) TimerEvent: {}
+[1.518920] (-) TimerEvent: {}
+[1.619542] (-) TimerEvent: {}
+[1.721882] (-) TimerEvent: {}
+[1.828033] (-) TimerEvent: {}
+[1.928894] (-) TimerEvent: {}
+[2.029628] (-) TimerEvent: {}
+[2.130529] (-) TimerEvent: {}
+[2.235979] (-) TimerEvent: {}
+[2.336635] (-) TimerEvent: {}
+[2.437250] (-) TimerEvent: {}
+[2.538206] (-) TimerEvent: {}
+[2.638872] (-) TimerEvent: {}
+[2.739572] (-) TimerEvent: {}
+[2.840192] (-) TimerEvent: {}
+[2.941115] (-) TimerEvent: {}
+[3.042044] (-) TimerEvent: {}
+[3.142939] (-) TimerEvent: {}
+[3.243903] (-) TimerEvent: {}
+[3.344832] (-) TimerEvent: {}
+[3.445775] (-) TimerEvent: {}
+[3.546747] (-) TimerEvent: {}
+[3.647472] (-) TimerEvent: {}
+[3.750286] (-) TimerEvent: {}
+[3.851202] (-) TimerEvent: {}
+[3.952167] (-) TimerEvent: {}
+[4.054225] (-) TimerEvent: {}
+[4.155202] (-) TimerEvent: {}
+[4.255813] (-) TimerEvent: {}
+[4.358208] (-) TimerEvent: {}
+[4.459193] (-) TimerEvent: {}
+[4.560196] (-) TimerEvent: {}
+[4.661059] (-) TimerEvent: {}
+[4.761983] (-) TimerEvent: {}
+[4.862732] (-) TimerEvent: {}
+[4.964073] (-) TimerEvent: {}
+[5.066493] (-) TimerEvent: {}
+[5.169797] (-) TimerEvent: {}
+[5.270800] (-) TimerEvent: {}
+[5.383058] (-) TimerEvent: {}
+[5.483949] (-) TimerEvent: {}
+[5.584974] (-) TimerEvent: {}
+[5.685600] (-) TimerEvent: {}
+[5.786194] (-) TimerEvent: {}
+[5.887644] (-) TimerEvent: {}
+[5.990057] (-) TimerEvent: {}
+[6.090713] (-) TimerEvent: {}
+[6.191678] (-) TimerEvent: {}
+[6.292380] (-) TimerEvent: {}
+[6.399956] (-) TimerEvent: {}
+[6.500619] (-) TimerEvent: {}
+[6.601843] (-) TimerEvent: {}
+[6.702562] (-) TimerEvent: {}
+[6.803241] (-) TimerEvent: {}
+[6.903941] (-) TimerEvent: {}
+[7.008024] (-) TimerEvent: {}
+[7.109765] (-) TimerEvent: {}
+[7.210410] (-) TimerEvent: {}
+[7.311088] (-) TimerEvent: {}
+[7.412750] (-) TimerEvent: {}
+[7.514218] (-) TimerEvent: {}
+[7.615037] (-) TimerEvent: {}
+[7.715950] (-) TimerEvent: {}
+[7.818679] (-) TimerEvent: {}
+[7.919601] (-) TimerEvent: {}
+[8.020249] (-) TimerEvent: {}
+[8.120876] (-) TimerEvent: {}
+[8.221485] (-) TimerEvent: {}
+[8.322137] (-) TimerEvent: {}
+[8.423084] (-) TimerEvent: {}
+[8.524039] (-) TimerEvent: {}
+[8.624937] (-) TimerEvent: {}
+[8.725941] (-) TimerEvent: {}
+[8.827056] (-) TimerEvent: {}
+[8.927936] (-) TimerEvent: {}
+[9.028876] (-) TimerEvent: {}
+[9.130960] (-) TimerEvent: {}
+[9.231940] (-) TimerEvent: {}
+[9.333956] (-) TimerEvent: {}
+[9.434805] (-) TimerEvent: {}
+[9.539956] (-) TimerEvent: {}
+[9.641016] (-) TimerEvent: {}
+[9.742418] (-) TimerEvent: {}
+[9.843084] (-) TimerEvent: {}
+[9.944039] (-) TimerEvent: {}
+[10.045211] (-) TimerEvent: {}
+[10.146115] (-) TimerEvent: {}
+[10.247014] (-) TimerEvent: {}
+[10.347975] (-) TimerEvent: {}
+[10.448828] (-) TimerEvent: {}
+[10.550727] (-) TimerEvent: {}
+[10.651376] (-) TimerEvent: {}
+[10.752425] (-) TimerEvent: {}
+[10.858226] (-) TimerEvent: {}
+[10.959267] (-) TimerEvent: {}
+[11.060215] (-) TimerEvent: {}
+[11.160958] (-) TimerEvent: {}
+[11.261868] (-) TimerEvent: {}
+[11.362481] (-) TimerEvent: {}
+[11.463100] (-) TimerEvent: {}
+[11.563740] (-) TimerEvent: {}
+[11.664368] (-) TimerEvent: {}
+[11.765348] (-) TimerEvent: {}
+[11.866169] (-) TimerEvent: {}
+[11.966820] (-) TimerEvent: {}
+[12.067720] (-) TimerEvent: {}
+[12.168674] (-) TimerEvent: {}
+[12.269295] (-) TimerEvent: {}
+[12.370288] (-) TimerEvent: {}
+[12.470910] (-) TimerEvent: {}
+[12.571560] (-) TimerEvent: {}
+[12.672307] (-) TimerEvent: {}
+[12.773099] (-) TimerEvent: {}
+[12.876672] (-) TimerEvent: {}
+[12.977633] (-) TimerEvent: {}
+[13.078442] (-) TimerEvent: {}
+[13.179343] (-) TimerEvent: {}
+[13.281723] (-) TimerEvent: {}
+[13.383476] (-) TimerEvent: {}
+[13.484178] (-) TimerEvent: {}
+[13.585119] (-) TimerEvent: {}
+[13.686030] (-) TimerEvent: {}
+[13.786998] (-) TimerEvent: {}
+[13.888040] (-) TimerEvent: {}
+[13.988719] (-) TimerEvent: {}
+[14.012788] (kalman_filter_jetracer) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/kalman_filter_jetracer', 'build', '--build-base', '/home/jetson/ros2_ws/build/kalman_filter_jetracer/build', 'install', '--record', '/home/jetson/ros2_ws/build/kalman_filter_jetracer/install.log', '--single-version-externally-managed'], 'cwd': '/home/jetson/ros2_ws/src/kalman_filter_jetracer', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'VIRTUALENVWRAPPER_WORKON_CD': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKON_HOME': '/home/jetson/.virtualenvs', 'USER': 'jetson', 'LC_TIME': 'en_GB.UTF-8', 'SSH_AGENT_PID': '7567', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/jetson', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_GB.UTF-8', 'MANAGERPID': '7194', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/ros2_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'jetson', 'JOURNAL_STREAM': '8:39184', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/jetson-desktop:@/tmp/.ICE-unix/7603,unix/jetson-desktop:/tmp/.ICE-unix/7603', 'INVOCATION_ID': '59bc2fc4cdd94acd9903f99c4316de88', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6dffe6cc_6604_436f_82bf_80d96b87f710', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/kalman_filter_jetracer:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/jetson/.virtualenvs', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/local/bin/virtualenvwrapper.sh', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jetson/ros2_ws/build/kalman_filter_jetracer', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ros2_ws/build/kalman_filter_jetracer/prefix_override:/home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver'}, 'shell': False}
+[14.089035] (-) TimerEvent: {}
+[14.190676] (-) TimerEvent: {}
+[14.291279] (-) TimerEvent: {}
+[14.391912] (-) TimerEvent: {}
+[14.492835] (-) TimerEvent: {}
+[14.593467] (-) TimerEvent: {}
+[14.694360] (-) TimerEvent: {}
+[14.800691] (-) TimerEvent: {}
+[14.901998] (-) TimerEvent: {}
+[15.003392] (-) TimerEvent: {}
+[15.104387] (-) TimerEvent: {}
+[15.205013] (-) TimerEvent: {}
+[15.305912] (-) TimerEvent: {}
+[15.406834] (-) TimerEvent: {}
+[15.507544] (-) TimerEvent: {}
+[15.608221] (-) TimerEvent: {}
+[15.708980] (-) TimerEvent: {}
+[15.809885] (-) TimerEvent: {}
+[15.910829] (-) TimerEvent: {}
+[16.011751] (-) TimerEvent: {}
+[16.112704] (-) TimerEvent: {}
+[16.213779] (-) TimerEvent: {}
+[16.314434] (-) TimerEvent: {}
+[16.415225] (-) TimerEvent: {}
+[16.516192] (-) TimerEvent: {}
+[16.618972] (-) TimerEvent: {}
+[16.720892] (-) TimerEvent: {}
+[16.821693] (-) TimerEvent: {}
+[16.922717] (-) TimerEvent: {}
+[17.023632] (-) TimerEvent: {}
+[17.124572] (-) TimerEvent: {}
+[17.225264] (-) TimerEvent: {}
+[17.330771] (-) TimerEvent: {}
+[17.433450] (-) TimerEvent: {}
+[17.534351] (-) TimerEvent: {}
+[17.634991] (-) TimerEvent: {}
+[17.735928] (-) TimerEvent: {}
+[17.836528] (-) TimerEvent: {}
+[17.937432] (-) TimerEvent: {}
+[17.971900] (kalman_filter_jetracer) StdoutLine: {'line': b'running egg_info\n'}
+[18.037591] (-) TimerEvent: {}
+[18.138345] (-) TimerEvent: {}
+[18.239270] (-) TimerEvent: {}
+[18.252108] (kalman_filter_jetracer) StdoutLine: {'line': b'writing ../../build/kalman_filter_jetracer/kalman_filter_jetracer.egg-info/PKG-INFO\n'}
+[18.253912] (kalman_filter_jetracer) StdoutLine: {'line': b'writing dependency_links to ../../build/kalman_filter_jetracer/kalman_filter_jetracer.egg-info/dependency_links.txt\n'}
+[18.254497] (kalman_filter_jetracer) StdoutLine: {'line': b'writing entry points to ../../build/kalman_filter_jetracer/kalman_filter_jetracer.egg-info/entry_points.txt\n'}
+[18.254996] (kalman_filter_jetracer) StdoutLine: {'line': b'writing requirements to ../../build/kalman_filter_jetracer/kalman_filter_jetracer.egg-info/requires.txt\n'}
+[18.255505] (kalman_filter_jetracer) StdoutLine: {'line': b'writing top-level names to ../../build/kalman_filter_jetracer/kalman_filter_jetracer.egg-info/top_level.txt\n'}
+[18.339449] (-) TimerEvent: {}
+[18.440117] (-) TimerEvent: {}
+[18.540742] (-) TimerEvent: {}
+[18.642550] (-) TimerEvent: {}
+[18.695716] (kalman_filter_jetracer) StdoutLine: {'line': b"reading manifest file '../../build/kalman_filter_jetracer/kalman_filter_jetracer.egg-info/SOURCES.txt'\n"}
+[18.716734] (kalman_filter_jetracer) StdoutLine: {'line': b"writing manifest file '../../build/kalman_filter_jetracer/kalman_filter_jetracer.egg-info/SOURCES.txt'\n"}
+[18.717773] (kalman_filter_jetracer) StdoutLine: {'line': b'running build\n'}
+[18.718394] (kalman_filter_jetracer) StdoutLine: {'line': b'running build_py\n'}
+[18.718952] (kalman_filter_jetracer) StdoutLine: {'line': b'copying kalman_filter_jetracer/kalman_filter.py -> /home/jetson/ros2_ws/build/kalman_filter_jetracer/build/lib/kalman_filter_jetracer\n'}
+[18.720203] (kalman_filter_jetracer) StdoutLine: {'line': b'running install\n'}
+[18.721162] (kalman_filter_jetracer) StderrLine: {'line': b'/home/jetson/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[18.721674] (kalman_filter_jetracer) StderrLine: {'line': b'  warnings.warn(\n'}
+[18.742695] (-) TimerEvent: {}
+[18.769074] (kalman_filter_jetracer) StdoutLine: {'line': b'running install_lib\n'}
+[18.843057] (-) TimerEvent: {}
+[18.944827] (-) TimerEvent: {}
+[19.026562] (kalman_filter_jetracer) StdoutLine: {'line': b'copying /home/jetson/ros2_ws/build/kalman_filter_jetracer/build/lib/kalman_filter_jetracer/kalman_filter.py -> /home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages/kalman_filter_jetracer\n'}
+[19.028893] (kalman_filter_jetracer) StdoutLine: {'line': b'byte-compiling /home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages/kalman_filter_jetracer/kalman_filter.py to kalman_filter.cpython-38.pyc\n'}
+[19.040768] (kalman_filter_jetracer) StdoutLine: {'line': b'running install_data\n'}
+[19.044934] (-) TimerEvent: {}
+[19.146111] (-) TimerEvent: {}
+[19.247083] (-) TimerEvent: {}
+[19.260977] (kalman_filter_jetracer) StdoutLine: {'line': b'running install_egg_info\n'}
+[19.347246] (-) TimerEvent: {}
+[19.448212] (-) TimerEvent: {}
+[19.466652] (kalman_filter_jetracer) StdoutLine: {'line': b"removing '/home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages/kalman_filter_jetracer-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[19.467862] (kalman_filter_jetracer) StdoutLine: {'line': b'Copying ../../build/kalman_filter_jetracer/kalman_filter_jetracer.egg-info to /home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/python3.8/site-packages/kalman_filter_jetracer-0.0.0-py3.8.egg-info\n'}
+[19.473588] (kalman_filter_jetracer) StdoutLine: {'line': b'running install_scripts\n'}
+[19.548365] (-) TimerEvent: {}
+[19.649284] (-) TimerEvent: {}
+[19.749880] (-) TimerEvent: {}
+[19.850797] (-) TimerEvent: {}
+[19.951477] (-) TimerEvent: {}
+[20.052387] (-) TimerEvent: {}
+[20.153568] (-) TimerEvent: {}
+[20.250447] (kalman_filter_jetracer) StdoutLine: {'line': b'Installing kalman script to /home/jetson/ros2_ws/install/kalman_filter_jetracer/lib/kalman_filter_jetracer\n'}
+[20.253038] (kalman_filter_jetracer) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ros2_ws/build/kalman_filter_jetracer/install.log'\n"}
+[20.253555] (-) TimerEvent: {}
+[20.356163] (-) TimerEvent: {}
+[20.457214] (-) TimerEvent: {}
+[20.505157] (kalman_filter_jetracer) CommandEnded: {'returncode': 0}
+[20.564626] (-) TimerEvent: {}
+[20.682526] (-) TimerEvent: {}
+[20.788072] (-) TimerEvent: {}
+[20.894768] (-) TimerEvent: {}
+[20.995845] (-) TimerEvent: {}
+[21.099869] (-) TimerEvent: {}
+[21.200631] (-) TimerEvent: {}
+[21.301482] (-) TimerEvent: {}
+[21.363863] (kalman_filter_jetracer) JobEnded: {'identifier': 'kalman_filter_jetracer', 'rc': 0}
+[21.368085] (-) EventReactorShutdown: {}

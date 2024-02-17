@@ -1,0 +1,6 @@
+source;share/kalman_filter_jetracer/hook/pythonpath.ps1
+source;share/kalman_filter_jetracer/hook/pythonpath.dsv
+source;share/kalman_filter_jetracer/hook/pythonpath.sh
+source;share/kalman_filter_jetracer/hook/ament_prefix_path.ps1
+source;share/kalman_filter_jetracer/hook/ament_prefix_path.dsv
+source;share/kalman_filter_jetracer/hook/ament_prefix_path.sh

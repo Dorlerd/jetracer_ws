@@ -1,0 +1,23 @@
+[10.860s] Invoking command in '/home/jetson/ros2_ws/src/realsens_speed_sens': PYTHONPATH=/home/jetson/ros2_ws/build/test_jetson/prefix_override:/home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_jetson build --build-base /home/jetson/ros2_ws/build/test_jetson/build install --record /home/jetson/ros2_ws/build/test_jetson/install.log --single-version-externally-managed
+[13.275s] running egg_info
+[13.437s] writing ../../build/test_jetson/test_jetson.egg-info/PKG-INFO
+[13.438s] writing dependency_links to ../../build/test_jetson/test_jetson.egg-info/dependency_links.txt
+[13.439s] writing entry points to ../../build/test_jetson/test_jetson.egg-info/entry_points.txt
+[13.440s] writing requirements to ../../build/test_jetson/test_jetson.egg-info/requires.txt
+[13.440s] writing top-level names to ../../build/test_jetson/test_jetson.egg-info/top_level.txt
+[13.689s] reading manifest file '../../build/test_jetson/test_jetson.egg-info/SOURCES.txt'
+[13.694s] writing manifest file '../../build/test_jetson/test_jetson.egg-info/SOURCES.txt'
+[13.694s] running build
+[13.695s] running build_py
+[13.696s] running install
+[13.697s] /home/jetson/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.697s]   warnings.warn(
+[13.726s] running install_lib
+[13.842s] running install_data
+[13.957s] running install_egg_info
+[14.075s] removing '/home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages/test_jetson-0.0.0-py3.8.egg-info' (and everything under it)
+[14.076s] Copying ../../build/test_jetson/test_jetson.egg-info to /home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages/test_jetson-0.0.0-py3.8.egg-info
+[14.080s] running install_scripts
+[14.483s] Installing odom_cam script to /home/jetson/ros2_ws/install/test_jetson/lib/test_jetson
+[14.484s] writing list of installed files to '/home/jetson/ros2_ws/build/test_jetson/install.log'
+[14.694s] Invoked command in '/home/jetson/ros2_ws/src/realsens_speed_sens' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/test_jetson/prefix_override:/home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_jetson build --build-base /home/jetson/ros2_ws/build/test_jetson/build install --record /home/jetson/ros2_ws/build/test_jetson/install.log --single-version-externally-managed

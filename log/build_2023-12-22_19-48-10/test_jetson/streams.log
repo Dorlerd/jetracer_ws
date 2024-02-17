@@ -1,0 +1,43 @@
+[16.835s] Invoking command in '/home/jetson/ros2_ws/src/realsens_speed_sens': PYTHONPATH=/home/jetson/ros2_ws/build/test_jetson/prefix_override:/home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_jetson build --build-base /home/jetson/ros2_ws/build/test_jetson/build install --record /home/jetson/ros2_ws/build/test_jetson/install.log --single-version-externally-managed
+[22.362s] running egg_info
+[22.367s] creating ../../build/test_jetson/test_jetson.egg-info
+[22.683s] writing ../../build/test_jetson/test_jetson.egg-info/PKG-INFO
+[22.684s] writing dependency_links to ../../build/test_jetson/test_jetson.egg-info/dependency_links.txt
+[22.685s] writing entry points to ../../build/test_jetson/test_jetson.egg-info/entry_points.txt
+[22.686s] writing requirements to ../../build/test_jetson/test_jetson.egg-info/requires.txt
+[22.687s] writing top-level names to ../../build/test_jetson/test_jetson.egg-info/top_level.txt
+[22.716s] writing manifest file '../../build/test_jetson/test_jetson.egg-info/SOURCES.txt'
+[23.478s] reading manifest file '../../build/test_jetson/test_jetson.egg-info/SOURCES.txt'
+[23.480s] writing manifest file '../../build/test_jetson/test_jetson.egg-info/SOURCES.txt'
+[23.483s] running build
+[23.483s] running build_py
+[23.484s] creating /home/jetson/ros2_ws/build/test_jetson/build
+[23.486s] creating /home/jetson/ros2_ws/build/test_jetson/build/lib
+[23.495s] creating /home/jetson/ros2_ws/build/test_jetson/build/lib/test_jetson
+[23.497s] copying test_jetson/setup.py -> /home/jetson/ros2_ws/build/test_jetson/build/lib/test_jetson
+[23.499s] copying test_jetson/__init__.py -> /home/jetson/ros2_ws/build/test_jetson/build/lib/test_jetson
+[23.500s] copying test_jetson/setup (copy).py -> /home/jetson/ros2_ws/build/test_jetson/build/lib/test_jetson
+[23.502s] running install
+[23.503s] /home/jetson/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[23.503s]   warnings.warn(
+[23.564s] running install_lib
+[23.872s] creating /home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages/test_jetson
+[23.874s] copying /home/jetson/ros2_ws/build/test_jetson/build/lib/test_jetson/setup.py -> /home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages/test_jetson
+[23.885s] copying /home/jetson/ros2_ws/build/test_jetson/build/lib/test_jetson/__init__.py -> /home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages/test_jetson
+[23.885s] copying /home/jetson/ros2_ws/build/test_jetson/build/lib/test_jetson/setup (copy).py -> /home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages/test_jetson
+[23.898s] byte-compiling /home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages/test_jetson/setup.py to setup.cpython-38.pyc
+[23.907s] byte-compiling /home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages/test_jetson/__init__.py to __init__.cpython-38.pyc
+[23.908s] byte-compiling /home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages/test_jetson/setup (copy).py to setup (copy).cpython-38.pyc
+[23.909s] running install_data
+[24.175s] creating /home/jetson/ros2_ws/install/test_jetson/share/ament_index
+[24.176s] creating /home/jetson/ros2_ws/install/test_jetson/share/ament_index/resource_index
+[24.177s] creating /home/jetson/ros2_ws/install/test_jetson/share/ament_index/resource_index/packages
+[24.178s] copying resource/test_jetson -> /home/jetson/ros2_ws/install/test_jetson/share/ament_index/resource_index/packages
+[24.179s] copying package.xml -> /home/jetson/ros2_ws/install/test_jetson/share/test_jetson
+[24.180s] copying launch/realsens_launch.py -> /home/jetson/ros2_ws/install/test_jetson/share/test_jetson
+[24.181s] running install_egg_info
+[24.516s] Copying ../../build/test_jetson/test_jetson.egg-info to /home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages/test_jetson-0.0.0-py3.8.egg-info
+[24.521s] running install_scripts
+[25.921s] Installing odom_cam script to /home/jetson/ros2_ws/install/test_jetson/lib/test_jetson
+[25.923s] writing list of installed files to '/home/jetson/ros2_ws/build/test_jetson/install.log'
+[26.308s] Invoked command in '/home/jetson/ros2_ws/src/realsens_speed_sens' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/test_jetson/prefix_override:/home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_jetson build --build-base /home/jetson/ros2_ws/build/test_jetson/build install --record /home/jetson/ros2_ws/build/test_jetson/install.log --single-version-externally-managed

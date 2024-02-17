@@ -1,0 +1,71 @@
+/home/jetson/.local/lib/python3.8/site-packages/setuptools/dist.py:770: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+creating ../../build/jetracer_description/jetracer_description.egg-info
+writing ../../build/jetracer_description/jetracer_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/jetracer_description/jetracer_description.egg-info/dependency_links.txt
+writing entry points to ../../build/jetracer_description/jetracer_description.egg-info/entry_points.txt
+writing requirements to ../../build/jetracer_description/jetracer_description.egg-info/requires.txt
+writing top-level names to ../../build/jetracer_description/jetracer_description.egg-info/top_level.txt
+writing manifest file '../../build/jetracer_description/jetracer_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/jetracer_description/jetracer_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/jetracer_description/jetracer_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jetson/ros2_ws/build/jetracer_description/build
+creating /home/jetson/ros2_ws/build/jetracer_description/build/lib
+creating /home/jetson/ros2_ws/build/jetracer_description/build/lib/jetracer_description
+copying jetracer_description/__init__.py -> /home/jetson/ros2_ws/build/jetracer_description/build/lib/jetracer_description
+copying jetracer_description/controller.py -> /home/jetson/ros2_ws/build/jetracer_description/build/lib/jetracer_description
+copying jetracer_description/wheel_steer.py -> /home/jetson/ros2_ws/build/jetracer_description/build/lib/jetracer_description
+running install
+/home/jetson/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages/jetracer_description
+copying /home/jetson/ros2_ws/build/jetracer_description/build/lib/jetracer_description/__init__.py -> /home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages/jetracer_description
+copying /home/jetson/ros2_ws/build/jetracer_description/build/lib/jetracer_description/controller.py -> /home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages/jetracer_description
+copying /home/jetson/ros2_ws/build/jetracer_description/build/lib/jetracer_description/wheel_steer.py -> /home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages/jetracer_description
+byte-compiling /home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages/jetracer_description/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages/jetracer_description/controller.py to controller.cpython-38.pyc
+byte-compiling /home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages/jetracer_description/wheel_steer.py to wheel_steer.cpython-38.pyc
+running install_data
+creating /home/jetson/ros2_ws/install/jetracer_description/share/ament_index
+creating /home/jetson/ros2_ws/install/jetracer_description/share/ament_index/resource_index
+creating /home/jetson/ros2_ws/install/jetracer_description/share/ament_index/resource_index/packages
+copying resource/jetracer_description -> /home/jetson/ros2_ws/install/jetracer_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description
+creating /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/launch
+copying launch/steering.launch.py -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/launch
+copying launch/display.launch.py -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/launch
+copying launch/gazebo.launch.py -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/launch
+creating /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/urdf
+copying urdf/jetracer.xacro -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/urdf
+copying urdf/jetracer.gazebo -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/urdf
+copying urdf/car.urdf -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/urdf
+copying urdf/jetracer.trans -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/urdf
+copying urdf/truck_xacro_ackermann.xacro -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/urdf
+copying urdf/jetracer_control.xacro -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/urdf
+copying urdf/materials.xacro -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/urdf
+creating /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/meshes
+copying meshes/camera_1.stl -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/meshes
+copying meshes/steering_left_1.stl -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/meshes
+copying meshes/base_link.stl -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/meshes
+copying meshes/right_front_1.stl -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/meshes
+copying meshes/steering_right_1.stl -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/meshes
+copying meshes/right_back_1.stl -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/meshes
+copying meshes/Xsens_1.stl -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/meshes
+copying meshes/left_back_1.stl -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/meshes
+copying meshes/left_front_1.stl -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/meshes
+creating /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/config
+copying config/my_controllers.yaml -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/config
+copying config/display.rviz -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/config
+creating /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/world
+copying world/g210.sdf -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/world
+copying world/my_world.sdf -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/world
+running install_egg_info
+Copying ../../build/jetracer_description/jetracer_description.egg-info to /home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages/jetracer_description-0.0.0-py3.8.egg-info
+running install_scripts
+Installing controller script to /home/jetson/ros2_ws/install/jetracer_description/lib/jetracer_description
+Installing wheel_steer script to /home/jetson/ros2_ws/install/jetracer_description/lib/jetracer_description
+writing list of installed files to '/home/jetson/ros2_ws/build/jetracer_description/install.log'

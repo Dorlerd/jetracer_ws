@@ -1,0 +1,2 @@
+[console_scripts]
+kalman = kalman_filter_jetracer.kalman_filter:main

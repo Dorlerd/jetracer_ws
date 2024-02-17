@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/jetson/jetson.egg-info/PKG-INFO
+writing dependency_links to ../../build/jetson/jetson.egg-info/dependency_links.txt
+writing entry points to ../../build/jetson/jetson.egg-info/entry_points.txt
+writing requirements to ../../build/jetson/jetson.egg-info/requires.txt
+writing top-level names to ../../build/jetson/jetson.egg-info/top_level.txt
+reading manifest file '../../build/jetson/jetson.egg-info/SOURCES.txt'
+writing manifest file '../../build/jetson/jetson.egg-info/SOURCES.txt'
+running build
+running build_py
+copying jetson/ssubscriber.py -> /home/jetson/ros2_ws/build/jetson/build/lib/jetson
+running install
+running install_lib
+copying /home/jetson/ros2_ws/build/jetson/build/lib/jetson/ssubscriber.py -> /home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages/jetson
+byte-compiling /home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages/jetson/ssubscriber.py to ssubscriber.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages/jetson-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/jetson/jetson.egg-info to /home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages/jetson-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/jetson/ros2_ws/install/jetson/lib/jetson
+writing list of installed files to '/home/jetson/ros2_ws/build/jetson/install.log'

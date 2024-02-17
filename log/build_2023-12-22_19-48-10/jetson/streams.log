@@ -1,0 +1,41 @@
+[17.334s] Invoking command in '/home/jetson/ros2_ws/src/jetson': PYTHONPATH=/home/jetson/ros2_ws/build/jetson/prefix_override:/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jetson build --build-base /home/jetson/ros2_ws/build/jetson/build install --record /home/jetson/ros2_ws/build/jetson/install.log --single-version-externally-managed
+[23.148s] running egg_info
+[23.152s] creating ../../build/jetson/jetson.egg-info
+[23.629s] writing ../../build/jetson/jetson.egg-info/PKG-INFO
+[23.631s] writing dependency_links to ../../build/jetson/jetson.egg-info/dependency_links.txt
+[23.633s] writing entry points to ../../build/jetson/jetson.egg-info/entry_points.txt
+[23.638s] writing requirements to ../../build/jetson/jetson.egg-info/requires.txt
+[23.641s] writing top-level names to ../../build/jetson/jetson.egg-info/top_level.txt
+[23.655s] writing manifest file '../../build/jetson/jetson.egg-info/SOURCES.txt'
+[24.316s] reading manifest file '../../build/jetson/jetson.egg-info/SOURCES.txt'
+[24.330s] writing manifest file '../../build/jetson/jetson.egg-info/SOURCES.txt'
+[24.331s] running build
+[24.332s] running build_py
+[24.332s] creating /home/jetson/ros2_ws/build/jetson/build
+[24.333s] creating /home/jetson/ros2_ws/build/jetson/build/lib
+[24.339s] creating /home/jetson/ros2_ws/build/jetson/build/lib/jetson
+[24.340s] copying jetson/__init__.py -> /home/jetson/ros2_ws/build/jetson/build/lib/jetson
+[24.341s] copying jetson/ssubscriber.py -> /home/jetson/ros2_ws/build/jetson/build/lib/jetson
+[24.344s] running install
+[24.345s] /home/jetson/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[24.345s]   warnings.warn(
+[24.394s] running install_lib
+[24.684s] creating /home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages/jetson
+[24.685s] copying /home/jetson/ros2_ws/build/jetson/build/lib/jetson/__init__.py -> /home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages/jetson
+[24.686s] copying /home/jetson/ros2_ws/build/jetson/build/lib/jetson/ssubscriber.py -> /home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages/jetson
+[24.689s] byte-compiling /home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages/jetson/__init__.py to __init__.cpython-38.pyc
+[24.691s] byte-compiling /home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages/jetson/ssubscriber.py to ssubscriber.cpython-38.pyc
+[24.700s] running install_data
+[24.945s] creating /home/jetson/ros2_ws/install/jetson/share/ament_index
+[24.946s] creating /home/jetson/ros2_ws/install/jetson/share/ament_index/resource_index
+[24.946s] creating /home/jetson/ros2_ws/install/jetson/share/ament_index/resource_index/packages
+[24.947s] copying resource/jetson -> /home/jetson/ros2_ws/install/jetson/share/ament_index/resource_index/packages
+[24.949s] copying package.xml -> /home/jetson/ros2_ws/install/jetson/share/jetson
+[24.951s] copying launch/x_launch.py -> /home/jetson/ros2_ws/install/jetson/share/jetson
+[24.953s] copying launch/launch.py -> /home/jetson/ros2_ws/install/jetson/share/jetson
+[24.958s] running install_egg_info
+[25.339s] Copying ../../build/jetson/jetson.egg-info to /home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages/jetson-0.0.0-py3.8.egg-info
+[25.344s] running install_scripts
+[26.365s] Installing listener script to /home/jetson/ros2_ws/install/jetson/lib/jetson
+[26.368s] writing list of installed files to '/home/jetson/ros2_ws/build/jetson/install.log'
+[28.183s] Invoked command in '/home/jetson/ros2_ws/src/jetson' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/jetson/prefix_override:/home/jetson/ros2_ws/install/jetson/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jetson build --build-base /home/jetson/ros2_ws/build/jetson/build install --record /home/jetson/ros2_ws/build/jetson/install.log --single-version-externally-managed

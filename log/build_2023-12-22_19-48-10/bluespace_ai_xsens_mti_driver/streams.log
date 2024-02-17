@@ -1,0 +1,98 @@
+[1.886s] Invoking command in '/home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/opt/ros/galactic /usr/bin/cmake /home/jetson/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver
+[11.699s] -- The C compiler identification is GNU 8.4.0
+[11.700s] -- The CXX compiler identification is GNU 8.4.0
+[11.701s] -- Check for working C compiler: /usr/bin/cc
+[11.704s] -- Check for working C compiler: /usr/bin/cc -- works
+[11.709s] -- Detecting C compiler ABI info
+[11.711s] -- Detecting C compiler ABI info - done
+[11.712s] -- Detecting C compile features
+[11.712s] -- Detecting C compile features - done
+[11.713s] -- Check for working CXX compiler: /usr/bin/c++
+[11.714s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[11.716s] -- Detecting CXX compiler ABI info
+[11.716s] -- Detecting CXX compiler ABI info - done
+[11.721s] -- Detecting CXX compile features
+[11.727s] -- Detecting CXX compile features - done
+[11.728s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[11.735s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[11.739s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.740s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[11.741s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.742s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[11.743s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[11.744s] -- Found FastRTPS: /opt/ros/galactic/include  
+[11.744s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.751s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[11.752s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[11.753s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[11.753s] -- Looking for pthread.h
+[11.754s] -- Looking for pthread.h - found
+[11.755s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.755s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.756s] -- Looking for pthread_create in pthreads
+[11.756s] -- Looking for pthread_create in pthreads - not found
+[11.757s] -- Looking for pthread_create in pthread
+[11.758s] -- Looking for pthread_create in pthread - found
+[11.758s] -- Found Threads: TRUE  
+[11.759s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[11.759s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[14.516s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[15.353s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[16.279s] -- Added test 'copyright' to check source files copyright and LICENSE
+[16.457s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.459s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jetson/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/lib/xspublic>
+[16.459s] -- Configured cppcheck exclude dirs and/or files: 
+[16.628s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[16.628s] -- Configured cpplint exclude dirs and/or files: 
+[16.656s] -- Added test 'flake8' to check Python code syntax and style conventions
+[16.709s] -- Added test 'lint_cmake' to check CMake code style
+[16.738s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[16.956s] -- Added test 'uncrustify' to check C / C++ code style
+[16.956s] -- Configured uncrustify additional arguments: 
+[16.991s] -- Added test 'xmllint' to check XML markup files
+[17.033s] -- Configuring done
+[17.134s] -- Generating done
+[17.142s] -- Build files have been written to: /home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver
+[17.228s] Invoked command in '/home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/opt/ros/galactic /usr/bin/cmake /home/jetson/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver
+[17.233s] Invoking command in '/home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/opt/ros/galactic /usr/bin/cmake --build /home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[17.585s] [35m[1mScanning dependencies of target xsens_mti_node[0m
+[18.908s] [ 25%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/main.cpp.o[0m
+[18.917s] [ 50%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+[18.937s] [ 75%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdacallback.cpp.o[0m
+[78.457s] [100%] [32m[1mLinking CXX executable xsens_mti_node[0m
+[82.488s] [100%] Built target xsens_mti_node
+[82.536s] Invoked command in '/home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/opt/ros/galactic /usr/bin/cmake --build /home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[82.677s] Invoking command in '/home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/opt/ros/galactic /usr/bin/cmake --install /home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver
+[82.717s] -- Install configuration: ""
+[82.717s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/bluespace_ai_xsens_mti_driver/xsens_mti_node
+[82.752s] -- Set runtime path of "/home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/bluespace_ai_xsens_mti_driver/xsens_mti_node" to ""
+[82.753s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/launch
+[82.758s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/launch/display.launch.py
+[82.759s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/launch/xsens_mti_node.launch.py
+[82.760s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/param
+[82.765s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/param/xsens_mti_node.yaml
+[82.766s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/rviz
+[82.767s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/rviz/display.rviz
+[82.768s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf
+[82.769s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_10.stl
+[82.834s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_1.stl
+[82.851s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_10.urdf
+[82.852s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_6xx.stl
+[82.906s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_6xx.urdf
+[82.907s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_1.urdf
+[82.911s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/package_run_dependencies/bluespace_ai_xsens_mti_driver
+[82.913s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/parent_prefix_path/bluespace_ai_xsens_mti_driver
+[82.930s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/ament_prefix_path.sh
+[82.934s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/ament_prefix_path.dsv
+[82.936s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/path.sh
+[82.938s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/path.dsv
+[82.939s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.bash
+[82.941s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.sh
+[82.943s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.zsh
+[82.945s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.dsv
+[82.946s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.dsv
+[82.948s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/packages/bluespace_ai_xsens_mti_driver
+[82.950s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/cmake/bluespace_ai_xsens_mti_driverConfig.cmake
+[82.955s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/cmake/bluespace_ai_xsens_mti_driverConfig-version.cmake
+[82.957s] -- Installing: /home/jetson/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.xml
+[82.967s] Invoked command in '/home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/test_jetson:/home/jetson/ros2_ws/install/jetson:/home/jetson/ros2_ws/install/jetracer_description:/opt/ros/galactic /usr/bin/cmake --install /home/jetson/ros2_ws/build/bluespace_ai_xsens_mti_driver

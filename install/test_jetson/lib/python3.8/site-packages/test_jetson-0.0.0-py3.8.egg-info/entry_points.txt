@@ -1,0 +1,2 @@
+[console_scripts]
+odom_cam = test_jetson.setup:main

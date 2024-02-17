@@ -1,0 +1,188 @@
+<?xml version="1.0" ?>
+<robot name="jetracer" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<xacro:property name="body_color" value="Gazebo/Silver" />
+
+<gazebo reference="base_link">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+  <gravity>true</gravity>
+</gazebo>
+
+<gazebo reference="right_front_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="left_front_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+
+<gazebo reference="steering_right_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="steering_left_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="left_back_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="right_back_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="Xsens_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="camera_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+
+  <!-- camera -->
+<gazebo reference="camera_1">
+  <sensor name="depth_camera" type="depth">
+    <visualize>true</visualize>
+    <update_rate>30.0</update_rate>
+    <camera name="camera">
+      <horizontal_fov>1.047198</horizontal_fov>
+      <image>
+        <width>640</width>
+        <height>480</height>
+        <format>R8G8B8</format>
+      </image>
+      <clip>
+        <near>0.05</near>
+        <far>3</far>
+      </clip>
+    </camera>
+    <plugin name="depth_camera_controller" filename="libgazebo_ros_camera.so">
+      <baseline>0.2</baseline>
+      <alwaysOn>true</alwaysOn>
+      <updateRate>0.0</updateRate>
+      <frame_name>camera_depth_frame</frame_name>
+      <pointCloudCutoff>0.5</pointCloudCutoff>
+      <pointCloudCutoffMax>3.0</pointCloudCutoffMax>
+      <distortionK1>0</distortionK1>
+      <distortionK2>0</distortionK2>
+      <distortionK3>0</distortionK3>
+      <distortionT1>0</distortionT1>
+      <distortionT2>0</distortionT2>
+      <CxPrime>0</CxPrime>
+      <Cx>0</Cx>
+      <Cy>0</Cy>
+      <focalLength>0</focalLength>
+      <hackBaseline>0</hackBaseline>
+    </plugin>
+  </sensor>
+</gazebo>
+
+
+
+<gazebo reference="Xsens_1">
+<sensor name="imu_sensor" type="imu">
+<plugin filename="libgazebo_ros_imu_sensor.so" name="imu_plugin">
+<ros>
+<namespace>/demo</namespace>
+<remapping>~/out:=imu</remapping>
+</ros>
+<initial_orientation_as_reference>false</initial_orientation_as_reference>
+</plugin>
+<always_on>true</always_on>
+<update_rate>100</update_rate>
+<visualize>true</visualize>
+<imu>
+<angular_velocity>
+<x>
+  <noise type="gaussian">
+    <mean>0.0</mean>
+    <stddev>2e-4</stddev>
+    <bias_mean>0.0000075</bias_mean>
+    <bias_stddev>0.0000008</bias_stddev>
+  </noise>
+</x>
+<y>
+  <noise type="gaussian">
+    <mean>0.0</mean>
+    <stddev>2e-4</stddev>
+    <bias_mean>0.0000075</bias_mean>
+    <bias_stddev>0.0000008</bias_stddev>
+  </noise>
+</y>
+<z>
+  <noise type="gaussian">
+    <mean>0.0</mean>
+    <stddev>2e-4</stddev>
+    <bias_mean>0.0000075</bias_mean>
+    <bias_stddev>0.0000008</bias_stddev>
+  </noise>
+</z>
+</angular_velocity>
+<linear_acceleration>
+<x>
+  <noise type="gaussian">
+    <mean>0.0</mean>
+    <stddev>1.7e-2</stddev>
+    <bias_mean>0.1</bias_mean>
+    <bias_stddev>0.001</bias_stddev>
+  </noise>
+</x>
+<y>
+  <noise type="gaussian">
+    <mean>0.0</mean>
+    <stddev>1.7e-2</stddev>
+    <bias_mean>0.1</bias_mean>
+    <bias_stddev>0.001</bias_stddev>
+  </noise>
+</y>
+<z>
+  <noise type="gaussian">
+    <mean>0.0</mean>
+    <stddev>1.7e-2</stddev>
+    <bias_mean>0.1</bias_mean>
+    <bias_stddev>0.001</bias_stddev>
+  </noise>
+</z>
+</linear_acceleration>
+</imu>
+</sensor>
+</gazebo>
+  
+  
+<gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+        <parameters>$(find jetracer_description)/config/my_controllers.yaml</parameters>
+    </plugin>
+</gazebo>
+  
+</robot>

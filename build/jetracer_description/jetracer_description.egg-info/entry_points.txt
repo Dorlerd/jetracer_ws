@@ -1,0 +1,3 @@
+[console_scripts]
+controller = jetracer_description.controller:main
+wheel_steer = jetracer_description.wheel_steer:main

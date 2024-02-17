@@ -1,0 +1,27 @@
+[14.347s] Invoking command in '/home/jetson/ros2_ws/src/jetracer_description': PYTHONPATH=/home/jetson/ros2_ws/build/jetracer_description/prefix_override:/home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jetracer_description build --build-base /home/jetson/ros2_ws/build/jetracer_description/build install --record /home/jetson/ros2_ws/build/jetracer_description/install.log --install-scripts $base/lib/jetracer_description --single-version-externally-managed
+[16.221s] /home/jetson/.local/lib/python3.8/site-packages/setuptools/dist.py:770: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[16.222s]   warnings.warn(
+[17.040s] running egg_info
+[17.233s] writing ../../build/jetracer_description/jetracer_description.egg-info/PKG-INFO
+[17.236s] writing dependency_links to ../../build/jetracer_description/jetracer_description.egg-info/dependency_links.txt
+[17.238s] writing entry points to ../../build/jetracer_description/jetracer_description.egg-info/entry_points.txt
+[17.238s] writing requirements to ../../build/jetracer_description/jetracer_description.egg-info/requires.txt
+[17.239s] writing top-level names to ../../build/jetracer_description/jetracer_description.egg-info/top_level.txt
+[17.536s] reading manifest file '../../build/jetracer_description/jetracer_description.egg-info/SOURCES.txt'
+[17.547s] writing manifest file '../../build/jetracer_description/jetracer_description.egg-info/SOURCES.txt'
+[17.547s] running build
+[17.548s] running build_py
+[17.551s] running install
+[17.553s] /home/jetson/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[17.554s]   warnings.warn(
+[17.589s] running install_lib
+[17.728s] running install_data
+[17.868s] copying launch/display.launch.py -> /home/jetson/ros2_ws/install/jetracer_description/share/jetracer_description/launch
+[17.875s] running install_egg_info
+[18.024s] removing '/home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages/jetracer_description-0.0.0-py3.8.egg-info' (and everything under it)
+[18.030s] Copying ../../build/jetracer_description/jetracer_description.egg-info to /home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages/jetracer_description-0.0.0-py3.8.egg-info
+[18.058s] running install_scripts
+[18.506s] Installing controller script to /home/jetson/ros2_ws/install/jetracer_description/lib/jetracer_description
+[18.510s] Installing wheel_steer script to /home/jetson/ros2_ws/install/jetracer_description/lib/jetracer_description
+[18.514s] writing list of installed files to '/home/jetson/ros2_ws/build/jetracer_description/install.log'
+[19.047s] Invoked command in '/home/jetson/ros2_ws/src/jetracer_description' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/jetracer_description/prefix_override:/home/jetson/ros2_ws/install/jetracer_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jetracer_description build --build-base /home/jetson/ros2_ws/build/jetracer_description/build install --record /home/jetson/ros2_ws/build/jetracer_description/install.log --install-scripts $base/lib/jetracer_description --single-version-externally-managed

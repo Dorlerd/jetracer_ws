@@ -1,0 +1,265 @@
+<?xml version="1.0" ?>
+<robot name="jetracer" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find jetracer_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find jetracer_description)/urdf/jetracer.trans" />
+<xacro:include filename="$(find jetracer_description)/urdf/jetracer.gazebo" />
+<xacro:include filename="$(find jetracer_description)/urdf/jetracer_control.xacro" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.007822214986222494 -0.0006387275133419422 0.04318497428519713" rpy="0 0 0"/>
+    <mass value="1.0182206318998972"/>
+    <inertia ixx="0.001622" iyy="0.004702" izz="0.004428" ixy="2e-06" iyz="5.1e-05" ixz="0.000131"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find jetracer_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find jetracer_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_back_1">
+  <inertial>
+    <origin xyz="-2.7755575615628914e-17 0.008999808461880157 2.1510571102112408e-16" rpy="0 0 0"/>
+    <mass value="0.028811701987599546"/>
+    <inertia ixx="5e-06" iyy="8e-06" izz="5e-06" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
+        <geometry>
+          <cylinder radius="0.023592" length="0.018"/>
+        </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
+        <geometry>
+          <cylinder radius="0.023592" length="0.018"/>
+        </geometry>
+  </collision>
+</link>
+
+<joint name="drive_back_left" type="continuous">
+  <origin xyz="-0.08245 0.0626 0.023592" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="left_back_1"/>
+  <axis xyz="0 1 0"/>
+</joint>
+
+<link name="right_back_1">
+  <inertial>
+    <origin xyz="4.163336342344337e-17 -0.009000191538119935 7.945033519973776e-16" rpy="0 0 0"/>
+    <mass value="0.028811701987599535"/>
+    <inertia ixx="5e-06" iyy="8e-06" izz="5e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
+        <geometry>
+          <cylinder radius="0.023592" length="0.018"/>
+        </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
+        <geometry>
+          <cylinder radius="0.023592" length="0.018"/>
+        </geometry>
+  </collision>
+</link>
+
+<link name="right_front_1">
+  <inertial>
+    <origin xyz="2.220446049250313e-16 -0.0025295963626714435 -2.393918396847994e-16" rpy="0 0 0"/>
+    <mass value="0.015306230789266082"/>
+    <inertia ixx="3e-06" iyy="5e-06" izz="3e-06" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
+        <geometry>
+          <cylinder radius="0.023592" length="0.01"/>
+        </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
+        <geometry>
+          <cylinder radius="0.023592" length="0.01"/>
+        </geometry>
+  </collision>
+</link>
+
+<link name="left_front_1">
+  <inertial>
+    <origin xyz="2.220446049250313e-16 0.0025292132864315198 -7.28583859910259e-17" rpy="0 0 0"/>
+    <mass value="0.015306230789266026"/>
+    <inertia ixx="3e-06" iyy="5e-06" izz="3e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
+        <geometry>
+          <cylinder radius="0.023592" length="0.01"/>
+        </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
+        <geometry>
+          <cylinder radius="0.023592" length="0.01"/>
+        </geometry>
+  </collision>
+</link>
+
+<link name="Xsens_1">
+  <inertial>
+    <origin xyz="-0.024707707028822832 0.024049438741521798 0.0044907833486113324" rpy="0 0 0"/>
+    <mass value="0.02428185439839244"/>
+    <inertia ixx="6e-06" iyy="4e-06" izz="1e-05" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.04383 0.03013 -0.135492" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find jetracer_description)/meshes/Xsens_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.04383 0.03013 -0.135492" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find jetracer_description)/meshes/Xsens_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_1">
+  <inertial>
+    <origin xyz="0.011624320340599681 0.02401277408398373 -2.388276390588584e-05" rpy="0 0 0"/>
+    <mass value="0.28705849475779793"/>
+    <inertia ixx="0.000185" iyy="2.8e-05" izz="0.000187" ixy="2e-06" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.060503 0.0225 -0.139542" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find jetracer_description)/meshes/camera_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.060503 0.0225 -0.139542" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find jetracer_description)/meshes/camera_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="steering_left_1">
+  <inertial>
+    <origin xyz="-4.7503667666148885e-14 0.0020324665109223844 0.004275547262463257" rpy="0 0 0"/>
+    <mass value="0.00039319017355190556"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.09165 -0.0525 -0.018592" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find jetracer_description)/meshes/steering_left_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.09165 -0.0525 -0.018592" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find jetracer_description)/meshes/steering_left_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="steering_right_1">
+  <inertial>
+    <origin xyz="4.882205750789126e-14 -0.00203284856916372 0.004275547262463306" rpy="0 0 0"/>
+    <mass value="0.00039319017355190735"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.09165 0.0525 -0.018592" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find jetracer_description)/meshes/steering_right_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.09165 0.0525 -0.018592" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find jetracer_description)/meshes/steering_right_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+
+<link name="camera_depth_frame"/>
+
+<joint name="camera_depth_joint" type="fixed">
+  <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
+  <parent link="camera_1"/>
+  <child link="camera_depth_frame"/>
+</joint>
+
+
+<joint name="drive_back_right" type="continuous">
+  <origin xyz="-0.08245 -0.0626 0.023592" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="right_back_1"/>
+  <axis xyz="0 1 0.0"/>
+</joint>
+
+<joint name="drive_front_right" type="continuous">
+  <origin xyz="0.0 -0.0161 0.005" rpy="0 0 0"/>
+  <parent link="steering_right_1"/>
+  <child link="right_front_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="drive_front_left" type="continuous">
+  <origin xyz="0.0 0.0161 0.005" rpy="0 0 0"/>
+  <parent link="steering_left_1"/>
+  <child link="left_front_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="base_xsens" type="fixed">
+  <origin xyz="0.04383 -0.03013 0.135492" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Xsens_1"/>
+</joint>
+
+<joint name="base_cam" type="fixed">
+  <origin xyz="0.060503 -0.0225 0.139542" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="camera_1"/>
+</joint>
+
+<joint name="steering_left" type="revolute">
+  <origin xyz="0.09165 0.0525 0.018592" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="steering_left_1"/>
+  <axis xyz="0.0 -0.0 1.0"/>
+  <limit upper="0.174533" lower="-0.174533" effort="100" velocity="100"/>
+</joint>
+
+<joint name="steering_right" type="revolute">
+  <origin xyz="0.09165 -0.0525 0.018592" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="steering_right_1"/>
+  <axis xyz="-0.0 -0.0 1.0"/>
+  <limit upper="0.174533" lower="-0.174533" effort="100" velocity="100"/>
+</joint>
+
+
+
+</robot>
