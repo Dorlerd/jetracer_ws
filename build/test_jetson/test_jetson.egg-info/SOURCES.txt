@@ -9,6 +9,7 @@ setup.py
 ../../build/test_jetson/test_jetson.egg-info/requires.txt
 ../../build/test_jetson/test_jetson.egg-info/top_level.txt
 ../../build/test_jetson/test_jetson.egg-info/zip-safe
+launch/realsen_lasen_launch.py
 launch/realsens_launch.py
 resource/test_jetson
 test/test_copyright.py

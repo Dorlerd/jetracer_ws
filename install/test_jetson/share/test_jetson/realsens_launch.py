@@ -14,7 +14,7 @@ def generate_launch_description():
     realsens = IncludeLaunchDescription(PythonLaunchDescriptionSource([FindPackageShare("realsense2_camera"), '/launch', '/rs_launch.py'])
             )
     listner = Node(
-        package='test_jetson',
+        package='realsens_jetson',
         executable='odom_cam',
         name='odom_cam',
         remappings=[('/velocity', '/velocit_realsens'),]

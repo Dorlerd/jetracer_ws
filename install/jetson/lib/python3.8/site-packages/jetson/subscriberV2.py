@@ -25,11 +25,24 @@ from std_msgs.msg import String,Float32
 from sensor_msgs.msg import Imu,TimeReference
 from geometry_msgs.msg import Vector3,QuaternionStamped,Quaternion
 
+class Median:
+    def __init__(self,l):
+        self.array = [0]*l
+    def get_median(self,data):
+        self.array.pop(0)
+        self.array.append((sum(self.array) + data)/(len(self.array)+1))
+        return sum(self.array)/len(self.array)
+
 
 class Subscriber(Node):
 
     def __init__(self):
-
+        self.x_m_a = Median(9)
+        self.y_m_a = Median(9)
+        self.x_m_v = Median(2)
+        self.y_m_v = Median(2)
+        self.x_pos = 0
+        self.y_pos = 0
         self.x_velocity = 0
         self.y_velocity = 0
         self.z_velocity = 0
@@ -49,18 +62,22 @@ class Subscriber(Node):
     def velocity(self,imu,quat):
         time = Clock().now().seconds_nanoseconds()
         dt = time[0] - self.prev_t[0] + time[1]/(10**9) - self.prev_t[1]/(10**9)
-        print(dt) 
         ang_x,ang_y,ang_z = euler_from_quaternion([quat.quaternion.x,quat.quaternion.y,quat.quaternion.z,quat.quaternion.w])
-        self.x_velocity += (imu.linear_acceleration.x + 9.81*math.sin(ang_y))*math.cos(ang_y)*dt
-        self.y_velocity += (imu.linear_acceleration.y + 9.81*math.sin(ang_x))*math.cos(ang_x)*dt
-        self.z_velocity += (imu.linear_acceleration.z + 9.81 * (math.cos(ang_x)* math.cos(ang_y)))*dt
+
+        x_a = self.x_m_a.get_median((imu.linear_acceleration.x + 9.88*math.sin(ang_y))*math.cos(ang_y))
+        y_a = self.y_m_a.get_median((imu.linear_acceleration.y + 9.88*math.sin(ang_x))*math.cos(ang_x))
+        self.x_velocity += x_a*dt
+        self.y_velocity += y_a*dt
+        self.z_velocity += 0
+        self.x_velocity = self.x_m_v.get_median(self.x_velocity)
+        self.y_velocity = self.y_m_v.get_median(self.y_velocity)
         self.total_velocity = (self.x_velocity**2 + self.y_velocity**2)**(1/2)
 
 
         velocity_msg= Quaternion()
         velocity_msg.x = self.x_velocity
         velocity_msg.y = self.y_velocity
-        velocity_msg.z = self.z_velocity
+        velocity_msg.z = 0.0
         velocity_msg.w = self.total_velocity
         
 
@@ -71,8 +88,15 @@ class Subscriber(Node):
 
         self.acceleration.publish(accel)
         self.velocity_gor.publish(velocity_msg)
-
+        pos = Vector3()
+        self.x_pos += self.x_velocity*dt
+        self.y_pos += self.y_velocity*dt
+        pos.x = self.x_pos
+        pos.y = self.y_pos
+        pos.z = 0.0
+        self.pose.publish(pos)
         self.prev_t = time
+
 
 def main(args=None):
     rclpy.init(args=args)

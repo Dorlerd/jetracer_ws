@@ -10,7 +10,7 @@ from launch.actions import IncludeLaunchDescription
 
 
 def generate_launch_description():
-    realsens = IncludeLaunchDescription(PythonLaunchDescriptionSource([FindPackageShare("test_jetson"), '/realsens_launch.py']))
+    realsens = IncludeLaunchDescription(PythonLaunchDescriptionSource([FindPackageShare("realsens_jetson"), '/realsens_launch.py']))
     xsense = IncludeLaunchDescription(PythonLaunchDescriptionSource([FindPackageShare("jetson"), '/x_launch.py']))
     kalman = Node(
             package='kalman_filter_jetracer',

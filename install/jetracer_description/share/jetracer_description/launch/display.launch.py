@@ -32,43 +32,6 @@ def generate_launch_description():
         executable='joint_state_publisher',
         name='joint_state_publisher'
     )
-
-    gazebo_server = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([
-            PathJoinSubstitution([
-                FindPackageShare('gazebo_ros'),
-                'launch',
-                'gzserver.launch.py'
-            ])
-        ])
-    )
-
-    gazebo_client = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([
-            PathJoinSubstitution([
-                FindPackageShare('gazebo_ros'),
-                'launch',
-                'gzclient.launch.py'
-            ])
-        ])
-    )
-
-    urdf_spawn_node = Node(
-        package='gazebo_ros',
-        executable='spawn_entity.py',
-        arguments=[
-            '-entity', 'jetracer',
-            '-topic', 'robot_description'
-        ],
-        output='screen'
-    )
-    
-    joint_state_broadcaster_spawner = Node(
-        package ="controller_manager",
-        executable='spawner',
-        arguments=['joint_broad', '--controller-manager',
-            '/controller_manager'],
-    )
     
     joint_steering = Node(
         package ="controller_manager",

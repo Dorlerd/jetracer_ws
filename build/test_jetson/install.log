@@ -7,6 +7,7 @@
 /home/jetson/ros2_ws/install/test_jetson/share/ament_index/resource_index/packages/test_jetson
 /home/jetson/ros2_ws/install/test_jetson/share/test_jetson/package.xml
 /home/jetson/ros2_ws/install/test_jetson/share/test_jetson/realsens_launch.py
+/home/jetson/ros2_ws/install/test_jetson/share/test_jetson/realsen_lasen_launch.py
 /home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages/test_jetson-0.0.0-py3.8.egg-info/PKG-INFO
 /home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages/test_jetson-0.0.0-py3.8.egg-info/top_level.txt
 /home/jetson/ros2_ws/install/test_jetson/lib/python3.8/site-packages/test_jetson-0.0.0-py3.8.egg-info/SOURCES.txt
